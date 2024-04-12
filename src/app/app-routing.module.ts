@@ -5,9 +5,9 @@ import { InscricaoProfessorComponent } from "./paginas/inscricao-professor/inscr
 import { tokenLoginGuard } from "./guards/token-login.guard";
 import { LandingPageComponent } from "./paginas/landing-page/landing-page.component";
 import { ladingPageGuard } from "./guards/lading-page.guard";
-import { inscricaoProfessorGuard } from "./guards/inscricao-professor.guard";
 import { ConsultaNotaComponent } from "./paginas/consulta-nota/consulta-nota.component";
 import { ConsultaNotasProfessorComponent } from "./paginas/consulta-notas-professor/consulta-notas-professor.component";
+import { RecursosComponent } from "./paginas/recursos/recursos.component";
 
 const routes: Routes = [
   {
@@ -33,6 +33,11 @@ const routes: Routes = [
   {
     path: "consultarProfessor",
     component: ConsultaNotasProfessorComponent,
+    canActivate: [tokenLoginGuard],
+  },
+  {
+    path: "recursos",
+    component: RecursosComponent,
     canActivate: [tokenLoginGuard],
   },
 ];

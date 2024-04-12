@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { NotaService } from "src/app/services/nota.service";
 import { UtilsService } from "src/app/services/utils.service";
 import { ToastrService } from "ngx-toastr";
+import Swal from "sweetalert2";
 
 @Component({
   selector: "app-consulta-nota",
@@ -44,13 +45,73 @@ export class ConsultaNotaComponent implements OnInit {
       this.carregando = false;
     } else if (matricula && token) {
       this.notaService.consultarNota(matricula, token).subscribe(
-        (dados) => {
-          this.notaAluno = dados;
-          this.carregando = false;
-          this.exibirFormulario = false;
-
+        (dados: any) => {
           // Calcule o total de acertos
-          this.notaAluno.totalAcertos = this.calcularAcertos(this.notaAluno);
+          //this.notaAluno.totalAcertos = this.calcularAcertos(this.notaAluno);
+          Swal.fire({
+            title: "Confirme o cpf do responsável",
+            input: "text",
+            inputAttributes: {
+              autocapitalize: "off",
+            },
+            showCancelButton: true,
+            confirmButtonText: "Confirmar",
+            confirmButtonColor: "#005b95",
+            cancelButtonText: "Cancelar",
+            showLoaderOnConfirm: true,
+            preConfirm: async () => {
+              try {
+                const response = this.notaService
+                  .validarPerguntaSegurança(
+                    2,
+                    Number(dados.aluno_id),
+                    dados.aluno_responsavel_cpf,
+                    token
+                  )
+                  .subscribe(
+                    (response: any) => {
+                      console.log("response", response);
+                      if (response.codigo == 200) {
+                        this.notaAluno = dados;
+                        this.carregando = false;
+                        this.exibirFormulario = false;
+                        Swal.fire({
+                          title: response.Message,
+                          icon: "success",
+                          text: "Cpf Confirmado!",
+                          confirmButtonColor: "#005b95",
+                        });
+                      }
+                      return response.json();
+                    },
+                    (error) => {
+                      this.carregando = false;
+                      Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "CPF não bate com a matrícula!",
+                        confirmButtonText: "Tentar Novamente",
+
+                        confirmButtonColor: "#005b95",
+                      });
+                    }
+                  );
+              } catch (error: any) {
+                this.carregando = false;
+                Swal.fire({
+                  icon: "error",
+                  title: "Oops...",
+                  text: "CPF não bate com a matrícula!",
+                  confirmButtonText: "Tentar Novamente",
+
+                  confirmButtonColor: "#005b95",
+                });
+              }
+            },
+            allowOutsideClick: () => !Swal.isLoading(),
+          });
+
+          this.carregando = false;
         },
         (error) => {
           this.toastr.error("Erro ao consultar a nota", "Erro");
@@ -89,6 +150,11 @@ export class ConsultaNotaComponent implements OnInit {
     return this.utilsService.RemoverLetra(event, max);
   }
 
+  downloadEstudante() {
+    window.open(
+      "https://educ.rec.br/recifenomundo/resultado/SELEÇÃO ESTUDANTES INTERCÂMBIO.pdf"
+    );
+  }
   IsMobile() {
     return this.utilsService.IsMobile();
   }

@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { NotaService } from "src/app/services/nota.service";
 import { UtilsService } from "src/app/services/utils.service";
 import { ToastrService } from "ngx-toastr";
+import Swal from "sweetalert2";
 
 @Component({
   selector: "app-consulta-nota",
@@ -44,15 +45,83 @@ export class ConsultaNotasProfessorComponent implements OnInit {
       this.carregando = false;
     } else if (matricula && token) {
       this.notaService.consultarNotaProfessor(matricula, token).subscribe(
-        (dados) => {
-          this.notaProfessor = dados;
-          this.carregando = false;
-          this.exibirFormulario = false;
+        (dados: any) => {
+          // this.notaProfessor = dados;
+          // this.carregando = false;
+          // this.exibirFormulario = false;
 
-          // Calcule o total de acertos
-          this.notaProfessor.totalAcertos = this.calcularAcertos(
-            this.notaProfessor
-          );
+          // // Calcule o total de acertos
+          // this.notaProfessor.totalAcertos = this.calcularAcertos(
+          //   this.notaProfessor
+          // );
+
+          Swal.fire({
+            title: "Confirme seu cpf",
+            input: "text",
+            inputAttributes: {
+              autocapitalize: "off",
+            },
+            showCancelButton: true,
+            confirmButtonText: "Confirmar",
+            confirmButtonColor: "#005b95",
+            cancelButtonText: "Cancelar",
+            showLoaderOnConfirm: true,
+            preConfirm: async () => {
+              try {
+                const response = this.notaService
+                  .validarPerguntaSegurança(
+                    1,
+                    Number(dados.prof_id),
+                    dados.prof_cpf,
+                    token
+                  )
+                  .subscribe(
+                    (response: any) => {
+                      console.log("response", response);
+                      if (response.codigo == 200) {
+                        this.notaProfessor = dados;
+                        this.exibirFormulario = false;
+
+                        this.notaProfessor.totalAcertos = this.calcularAcertos(
+                          this.notaProfessor
+                        );
+                        Swal.fire({
+                          title: response.Message,
+                          icon: "success",
+                          text: "Cpf Confirmado!",
+                          confirmButtonColor: "#005b95",
+                        });
+                      }
+                      return response.json();
+                    },
+                    (error) => {
+                      this.carregando = false;
+                      Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "CPF não bate com a matrícula!",
+                        confirmButtonText: "Tentar Novamente",
+
+                        confirmButtonColor: "#005b95",
+                      });
+                    }
+                  );
+              } catch (error: any) {
+                this.carregando = false;
+                Swal.fire({
+                  icon: "error",
+                  title: "Oops...",
+                  text: "CPF não bate com a matrícula!",
+                  confirmButtonText: "Tentar Novamente",
+
+                  confirmButtonColor: "#005b95",
+                });
+              }
+            },
+            allowOutsideClick: () => !Swal.isLoading(),
+          });
+
+          this.carregando = false;
         },
         (error) => {
           this.toastr.error("Erro ao consultar a nota", "Erro");
@@ -64,6 +133,11 @@ export class ConsultaNotasProfessorComponent implements OnInit {
       this.toastr.error("Token não disponível", "Erro");
       this.carregando = false;
     }
+  }
+
+  showCPFModal() {
+    // Implement your modal logic here
+    // This function will be called when the request is successful
   }
 
   // Função para calcular os acertos
@@ -89,6 +163,12 @@ export class ConsultaNotasProfessorComponent implements OnInit {
 
   Removerletra(event: KeyboardEvent, max = 2023) {
     return this.utilsService.RemoverLetra(event, max);
+  }
+
+  downloadProfessor() {
+    window.open(
+      "https://educ.rec.br/recifenomundo/resultado/SELEÇÃO PROFESSORES INTERCÂMBIO.pdf"
+    );
   }
 
   IsMobile() {

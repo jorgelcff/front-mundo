@@ -18,6 +18,7 @@ import { RodapeModule } from './componentes/rodape/rodape.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ConsultaNotaComponent } from './paginas/consulta-nota/consulta-nota.component';
 import { ConsultaNotasProfessorComponent } from './paginas/consulta-notas-professor/consulta-notas-professor.component';
+import { RecursosComponent } from './paginas/recursos/recursos.component';
 
 
 
@@ -26,6 +27,7 @@ import { ConsultaNotasProfessorComponent } from './paginas/consulta-notas-profes
     AppComponent,
     ConsultaNotaComponent,
     ConsultaNotasProfessorComponent,
+    RecursosComponent,
 
   ],
   imports: [

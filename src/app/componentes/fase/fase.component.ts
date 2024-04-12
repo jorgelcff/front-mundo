@@ -56,6 +56,17 @@ export class FaseComponent {
     this.router.navigate(["consultarProfessor"]);
   }
 
+  downloadEstudante() {
+    window.open(
+      "https://educ.rec.br/recifenomundo/resultado/SELEÇÃO ESTUDANTES INTERCÂMBIO.pdf"
+    );
+  }
+
+  downloadProfessor() {
+    window.open(
+      "https://educ.rec.br/recifenomundo/resultado/SELEÇÃO PROFESSORES INTERCÂMBIO.pdf"
+    );
+  }
   IsMobile() {
     if (
       navigator.userAgent.match(/Android/i) ||

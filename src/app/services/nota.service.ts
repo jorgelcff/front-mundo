@@ -33,4 +33,22 @@ export class NotaService {
       { headers }
     );
   }
+
+  validarPerguntaSegurança(
+    tipo: number,
+    id: number,
+    cpf: string,
+    token: string
+  ) {
+    const headers = new HttpHeaders({
+      "Content-Type": "application/json",
+      Authorization: token,
+    });
+
+    return this.http.post(
+      `${environment.api}/resposta`,
+      { tipo, id, cpf },
+      { headers }
+    );
+  }
 }

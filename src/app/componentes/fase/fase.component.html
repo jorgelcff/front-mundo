@@ -4,8 +4,53 @@
   [ngClass]="this.IsMobile() ? '' : 'ps-5 pe-5 pb-5 pt-2'"
 >
   <div [ngSwitch]="this.faseAtual">
-    <div *ngSwitchCase="1">
-      <p>1</p>
+    <div *ngSwitchCase="0">
+      <div class="d-grid gap-2 col-6 mx-auto mb-5" *ngIf="this.IsMobile()">
+        <a
+          href="https://educ.rec.br/recifenomundo/resultado/SELEÇÃO ESTUDANTES INTERCÂMBIO.pdf"
+          download
+          class="btn btn-warning text-white fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+        >
+          APROVADOS ESTUDANTES
+        </a>
+        <button
+          href="https://educ.rec.br/recifenomundo/resultado/SELEÇÃO PROFESSORES INTERCÂMBIO.pdf"
+          download
+          class="btn btn-primary fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.downloadProfessor()"
+        >
+          APROVADOS PROFESSORES
+        </button>
+      </div>
+      <div
+        class="d-flex flex-wrap justify-content-center mt-5 mb-5"
+        *ngIf="!this.IsMobile()"
+      >
+        <button
+          type="button"
+          class="btn btn-warning text-white p-3 fw-5 px-4 fw-semibold"
+          style="font-size: 12px"
+          [ngClass]="this.IsMobile() ? '' : 'ms-2 me-2'"
+          href="https://educ.rec.br/recifenomundo/resultado/SELEÇÃO ESTUDANTES INTERCÂMBIO.pdf"
+          download
+          (click)="this.downloadEstudante()"
+        >
+          APROVADOS ESTUDANTES
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-5 p-3 px-4 fw-semibold"
+          style="font-size: 12px"
+          href="https://educ.rec.br/recifenomundo/resultado/SELEÇÃO PROFESSORES INTERCÂMBIO.pdf"
+          download
+          (click)="this.downloadProfessor()"
+        >
+          APROVADOS PROFESSORES
+        </button>
+        <div></div>
+      </div>
     </div>
     <div *ngSwitchCase="2">
       <div class="d-grid gap-2 col-6 mx-auto mb-5" *ngIf="this.IsMobile()">

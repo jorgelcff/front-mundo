@@ -11,11 +11,11 @@
 <div class="bg-white">
   <div class="d-flex flex-column align-items-center p-3">
     <div [ngClass]="this.IsMobile() ? 'w-100' : 'w-50'">
-
-      <div class="d-flex flex-wrap justify-content-center gap-5"
-        [ngClass]="this.IsMobile() ? 'justify-content-center' : '' "
-        id="edital">
-
+      <div
+        class="d-flex flex-wrap justify-content-center gap-5"
+        [ngClass]="this.IsMobile() ? 'justify-content-center' : ''"
+        id="edital"
+      >
         <!-- <div class="fs-4 fw-semibold" style="width: 10rem;">O nosso programa em números</div> -->
         <!-- <a (click)="this.BaixarResultado()" target="_blank" style="cursor: pointer;"><img src="https://educ.rec.br/recifenomundo/assets/imagens/veja-os-resultados.png" class="img-fluid HoverDiv" [ngStyle]="this.IsMobile() ? {} : {'width': '20vw'} " alt="..."></a>
         <div class="ms-2 me-2"></div>
@@ -28,19 +28,30 @@
               <div class="fw-bold fs-4 mb-2">Editais</div>
               <div *ngFor="let edital of editaisEstudante">
                 <div ngbDropdown class="d-inline-block">
-                  <button type="button" class="btn btn-outline-student mt-2"
-                    id="dropdownBasic1" ngbDropdownToggle>
+                  <button
+                    type="button"
+                    class="btn btn-outline-student mt-2"
+                    id="dropdownBasic1"
+                    ngbDropdownToggle
+                  >
                     {{ edital.ano }}
                   </button>
                   <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                    <button (click)="BaixarPDF(edital.ingles)"
-                      ngbDropdownItem>Curso</button>
-                    <button (click)="BaixarPDF(edital.intercambio)"
-                      ngbDropdownItem>Intercâmbio</button>
-                    <button (click)="BaixarPDF(edital.anexos)"
-                      ngbDropdownItem>Anexos - Intercâmbio</button>
-                      <button (click)="BaixarPDF(edital.erratas)"
-                      ngbDropdownItem>Errata</button>
+                    <button (click)="BaixarPDF(edital.ingles)" ngbDropdownItem>
+                      Curso
+                    </button>
+                    <button
+                      (click)="BaixarPDF(edital.intercambio)"
+                      ngbDropdownItem
+                    >
+                      Intercâmbio
+                    </button>
+                    <button (click)="BaixarPDF(edital.anexos)" ngbDropdownItem>
+                      Anexos - Intercâmbio
+                    </button>
+                    <button (click)="BaixarPDF(edital.erratas)" ngbDropdownItem>
+                      Errata
+                    </button>
                   </div>
                 </div>
               </div>
@@ -51,19 +62,30 @@
 
               <div *ngFor="let resultado of resultadosEstudante">
                 <div ngbDropdown class="d-inline-block">
-                  <button type="button" class="btn btn-outline-student mt-2"
-                    id="dropdownBasic1" ngbDropdownToggle>
+                  <button
+                    type="button"
+                    class="btn btn-outline-student mt-2"
+                    id="dropdownBasic1"
+                    ngbDropdownToggle
+                  >
                     {{ resultado.ano }}
                   </button>
                   <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                    <button (click)="BaixarPDF(resultado.ingles)"
-                      ngbDropdownItem>Curso</button>
-                    <button (click)="BaixarPDF(resultado.intercambio)"
-                      ngbDropdownItem>Intercâmbio</button>
+                    <button
+                      (click)="BaixarPDF(resultado.ingles)"
+                      ngbDropdownItem
+                    >
+                      Curso
+                    </button>
+                    <button
+                      (click)="BaixarPDF(resultado.intercambio)"
+                      ngbDropdownItem
+                    >
+                      Intercâmbio
+                    </button>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -75,19 +97,30 @@
               <div class="fw-bold fs-4 mb-2">Editais</div>
               <div *ngFor="let edital of editaisProfessor">
                 <div ngbDropdown class="d-inline-block">
-                  <button type="button" class="btn btn-outline-primary mt-2"
-                    id="dropdownBasic1" ngbDropdownToggle>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-2"
+                    id="dropdownBasic1"
+                    ngbDropdownToggle
+                  >
                     {{ edital.ano }}
                   </button>
                   <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                    <button (click)="BaixarPDF(edital.ingles)"
-                      ngbDropdownItem>Curso</button>
-                    <button (click)="BaixarPDF(edital.intercambio)"
-                      ngbDropdownItem>Intercâmbio</button>
-                    <button (click)="BaixarPDF(edital.anexos)"
-                      ngbDropdownItem>Anexos - Intercâmbio</button>
-                    <button (click)="BaixarPDF(edital.erratas)"
-                      ngbDropdownItem>Errata</button>
+                    <button (click)="BaixarPDF(edital.ingles)" ngbDropdownItem>
+                      Curso
+                    </button>
+                    <button
+                      (click)="BaixarPDF(edital.intercambio)"
+                      ngbDropdownItem
+                    >
+                      Intercâmbio
+                    </button>
+                    <button (click)="BaixarPDF(edital.anexos)" ngbDropdownItem>
+                      Anexos - Intercâmbio
+                    </button>
+                    <button (click)="BaixarPDF(edital.erratas)" ngbDropdownItem>
+                      Errata
+                    </button>
                   </div>
                 </div>
               </div>
@@ -98,19 +131,36 @@
 
               <div *ngFor="let resultado of resultadosProfessor">
                 <div ngbDropdown class="d-inline-block">
-                  <button type="button" class="btn btn-outline-primary mt-2"
-                    id="dropdownBasic1" ngbDropdownToggle>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary mt-2"
+                    id="dropdownBasic1"
+                    ngbDropdownToggle
+                  >
                     {{ resultado.ano }}
                   </button>
                   <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                    <button (click)="BaixarPDF(resultado.ingles)"
-                      ngbDropdownItem>Curso</button>
-                    <button (click)="BaixarPDF(resultado.intercambio)"
-                      ngbDropdownItem>Intercâmbio</button>
+                    <button
+                      (click)="BaixarPDF(resultado.ingles)"
+                      ngbDropdownItem
+                    >
+                      Curso
+                    </button>
+                    <button
+                      (click)="BaixarPDF(resultado.intercambio)"
+                      ngbDropdownItem
+                    >
+                      Intercâmbio
+                    </button>
+                    <button
+                      (click)="BaixarPDF(resultado.intercambio)"
+                      ngbDropdownItem
+                    >
+                      Recurso
+                    </button>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -127,17 +177,14 @@
         </div>
       </div> -->
         <!-- Duvidas -->
-
       </div>
-
     </div>
     <div class="d-flex flex-column align-items-center p-3 w-100">
       <div [ngClass]="this.IsMobile() ? 'w-100' : 'w-50'">
         <app-faq id="faq"></app-faq>
       </div>
-
     </div>
-
   </div>
 
   <app-rodape></app-rodape>
+</div>
