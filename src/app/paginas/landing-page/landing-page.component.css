@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+
+.container-card-vantagens{
+  background-color: #1C4496;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.btn-outline-student {
+  border-color: #EA6013;
+  color: #EA6013;
+  background: white;
+
+  &:hover {
+    color: white;
+    background: #ea6013;
+  }
+}
+
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

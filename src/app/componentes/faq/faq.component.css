@@ -1,0 +1,65 @@
+@import url("//fonts.googleapis.com/css?family=Roboto|Material+Icons");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.card-estudante-1 {
+  height: 120px;
+  width: 200px;
+  background-color: blue;
+}
+
+.btn-outline-english {
+  border-color: #EA6013;
+  color: #EA6013;
+  background: white;
+
+  &:hover {
+    color: white;
+    background: #ea6013;
+  }
+}
+
+.btn-english {
+  color: white;
+  background: #ea6013;
+}
+
+.card-estudante-2 {
+  height: 120px;
+  width: 200px;
+  background-color: #fc551d;
+}
+
+.card-estudante-3 {
+  height: 120px;
+  width: 220px;
+  background-color: #82cb76;
+}
+
+.card-subtitulo {
+  font-size: 12px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://educ.rec.br/educarecife/embarquedigital/assets/imagens/minus-solid.svg");
+  transform: rotate(360deg);
+  background-size: auto;
+  margin-left: 0;
+  margin-right: 0.5em;
+  background-position: center;
+  color: #15bb07 !important;
+}
+
+.accordion-button::after {
+  order: -1;
+  margin-left: 0;
+  margin-right: 0.5em;
+  background-image: url("https://educ.rec.br/educarecife/embarquedigital/assets/imagens/plus-solid.svg");
+  color: #15bb07 !important;
+}
+
+.accordion-button {
+  color: #1c4496 !important;
+}

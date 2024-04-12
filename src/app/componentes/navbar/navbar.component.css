@@ -1,0 +1,18 @@
+
+@import url('//fonts.googleapis.com/css?family=Montserrat|Material+Icons');
+
+a, button {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* .navbar-bg-primary {
+  background-color: #1C4496;
+} */
+
+.text-primary {
+  color:#1C4496 !important;
+}
+
+.navbar-bg-primary{
+  background-color: #213cb0 !important;
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/src/assets/fontes/Roboto-Regular.ttf)
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.input-background{
+  background-color: #EEF2F8;
+  border-color: #EEF2F8;
+}
+
+.input-check-background{
+  height: 20px;
+  width: 20px;
+  background-color: #D9D9D9;
+  border-color: #EEF2F8;
+}
+
+.input-check-background:checked{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(75, 75, 238);
+  border-color: rgb(75, 75, 238);
+}
+
+
+.card-container{
+  /* height: 20rem; */
+  width: 40rem;
+}
+
+.fw-7{
+  font-size: 13px;
+}
+
+.btn-outline-light{
+  padding: 12px;
+  background-color: white;
+  border-color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  color: black;
+}
+
+.btn-outline-light:hover{
+  background-color: #11B163;
+  border-color: #11B163;
+  font-weight: 600;
+  border-radius: 15px;
+  color: white;
+}
+
+.is-animating {
+	animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,33 @@
+@import '~ngx-toastr/toastr';
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #EEF2F8 !important;
+}
+.ng-select .ng-select-container{
+  background-color: #EEF2F8 !important;
+  border: 1px solid #EEF2F8 !important;
+}
+
+.ng-select.ng-select-opened>.ng-select-container{
+  background: #EEF2F8 !important;
+  border-color: #EEF2F8 !important;
+}
+
+.btn-primary{
+  background-color: #1C4496 !important;
+  border-color: #1C4496 !important;
+}
+
+.btn-outline-primary{
+  color: #1C4496;
+  border-color: #1C4496;
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  background-color: #1C4496 !important;
+  border-color: #1C4496;
+}

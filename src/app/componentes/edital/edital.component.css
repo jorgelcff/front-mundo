@@ -1,0 +1,18 @@
+.container-edital{
+  background-image: url("https://educ.rec.br/educarecife/embarquedigital/assets/imagens/bg-edital.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-edital{
+  background-color: white;
+
+  border-color: white;
+  border-radius: 50px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}

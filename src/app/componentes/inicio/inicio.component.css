@@ -1,0 +1,87 @@
+@import url('//fonts.googleapis.com/css?family=Montserrat|Material+Icons');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.img-recife-no-mundo {
+  height: 460px;
+}
+
+.img-secretaria-educacao {
+  width: 650px;
+}
+
+.img-aviao {
+}
+
+.container-home {
+  background-image: url("../../../assets/imagens/recife-no-mundo.png") !important;
+  height: 75vh;
+}
+
+.fs-6 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+@media (max-width: 1440px) {
+  .img-recife-no-mundo {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .img-recife-no-mundo {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .img-recife-no-mundo {
+    height: 290px;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-recife-no-mundo {
+    height: 230px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .img-secretaria-educacao {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .img-secretaria-educacao {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1060) {
+  .img-secretaria-educacao {
+    width: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-secretaria-educacao {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .img-aviao {
+    width: 550px;
+  }
+}
+
+@media (max-width: 1115) {
+  .img-aviao {
+    width: 150px;
+  }
+}
+

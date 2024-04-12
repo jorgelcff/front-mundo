@@ -1,0 +1,17 @@
+<div class="mt-4">
+  <div class="fs-7 fw-semibold text-secondary">
+    {{ this.tipoDocumento }}
+  </div>
+  <div class="d-flex flex-row">
+    <div class="flex-grow-1 border border-2 rounded border-documento ps-2 pt-1 pb-1 bg-documento">
+      {{ this.nomeDocumento }}
+    </div>
+    <div class="border border-2 rounded ms-2 ps-2 pe-2 pt-1 pb-1" [ngClass]="this.CorStatus()">
+      <ng-container [ngSwitch]="this.status">
+      <i *ngSwitchCase="'0'" class="fa-solid fa-x fw-bold text-danger"></i>
+      <i *ngSwitchCase="'1'" class="fa-solid fa-check text-success"></i>
+      <i *ngSwitchCase="'2'" class="fa-solid fa-exclamation fs-4 text-white ps-1 pe-1"></i>
+      </ng-container>
+    </div>
+  </div>
+</div>

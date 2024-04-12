@@ -1,0 +1,44 @@
+<ng-container [ngSwitch]="this.status">
+  <!-- Reprovado -->
+  <ng-container *ngSwitchCase=" '0' ">
+    <div class="border border-2 border-danger rounded bg-reprovado mt-4 mb-4">
+      <div class="d-flex flex-row justify-content-center p-1">
+        <div class="me-2">
+          <i class="fa-solid fa-ban text-danger"></i>
+        </div>
+        <div class="text-danger fw-semibold user-select-none">
+          Reprovado
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <!-- Aprovado -->
+  <ng-container *ngSwitchCase=" '1' ">
+    <div class="border border-2 border-success rounded bg-sucess mt-4 mb-4">
+      <div class="d-flex flex-row justify-content-center p-1">
+        <div class="me-2">
+          <i class="fa-regular fa-circle-check text-success"></i>
+        </div>
+        <div class="text-success fw-semibold user-select-none">
+          Aprovado
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <!-- Aprovado -->
+  <ng-container *ngSwitchCase=" '2' ">
+    <div class="border border-2 border-info rounded mt-4 mb-4">
+      <div class="d-flex flex-row justify-content-center p-1">
+        <div class="me-2">
+          <i class="fa-regular fa-circle-pause text-info"></i>
+        </div>
+        <div class="text-info fw-semibold user-select-none">
+          Remanejável
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+</ng-container>

@@ -1,0 +1,182 @@
+<div
+  class="bg-white pt-4"
+  id="fase"
+  [ngClass]="this.IsMobile() ? '' : 'ps-5 pe-5 pb-5 pt-2'"
+>
+  <div [ngSwitch]="this.faseAtual">
+    <div *ngSwitchCase="1">
+      <p>1</p>
+    </div>
+    <div *ngSwitchCase="2">
+      <div class="d-grid gap-2 col-6 mx-auto mb-5" *ngIf="this.IsMobile()">
+        <button
+          type="button"
+          class="btn btn-warning text-white fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.irParaConsultarEstudante()"
+        >
+          CONSULTAR NOTA ESTUDANTES
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.irParaConsultarProfessor()"
+        >
+          CONSULTAR NOTA PROFESSORES
+        </button>
+      </div>
+      <div
+        class="d-flex flex-wrap justify-content-center mt-5 mb-5"
+        *ngIf="!this.IsMobile()"
+      >
+        <button
+          type="button"
+          class="btn btn-warning text-white p-3 fw-5 px-4 fw-semibold"
+          style="font-size: 12px"
+          [ngClass]="this.IsMobile() ? '' : 'ms-2 me-2'"
+          (click)="this.irParaConsultarEstudante()"
+        >
+          CONSULTAR NOTA ESTUDANTES
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-5 p-3 px-4 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.irParaConsultarProfessor()"
+        >
+          CONSULTAR NOTA PROFESSORES
+        </button>
+        <div></div>
+      </div>
+    </div>
+    <div *ngSwitchCase="3">
+      <p>3</p>
+    </div>
+    <div *ngSwitchDefault>
+      <div class="d-grid gap-2 col-6 mx-auto mb-5" *ngIf="this.IsMobile()">
+        <button
+          type="button"
+          class="btn btn-warning text-white fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.IrParaInscricaoEstudante()"
+        >
+          INSCRIÇÃO ESTUDANTES
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-5 px-5 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.IrParaInscricaoProfessor()"
+        >
+          INSCRIÇÃO PROFESSORES
+        </button>
+      </div>
+      <div
+        class="d-flex flex-wrap justify-content-center mt-5 mb-5"
+        *ngIf="!this.IsMobile()"
+      >
+        <button
+          type="button"
+          class="btn btn-warning text-white p-3 fw-5 px-4 fw-semibold"
+          style="font-size: 12px"
+          [ngClass]="this.IsMobile() ? '' : 'ms-2 me-2'"
+          (click)="this.IrParaInscricaoEstudante()"
+        >
+          INSCRIÇÃO ESTUDANTES
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary fw-5 p-3 px-4 fw-semibold"
+          style="font-size: 12px"
+          (click)="this.IrParaInscricaoProfessor()"
+        >
+          INSCRIÇÃO PROFESSORES
+        </button>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center fs-3 fw-bold">
+    Em que fase estamos
+  </div>
+  <div class="m-2 d-flex flex-column justify-content-center">
+    <div class="d-flex justify-content-center">
+      <div
+        class="timeline d-flex justify-content-evenly"
+        [ngClass]="this.IsMobile() ? '' : 'w-50'"
+      >
+        <div
+          class="linha"
+          [style]="
+            this.IsMobile()
+              ? 'top: 1.3rem; width: 100%;'
+              : 'top: 2.5rem; width: 75%;'
+          "
+        ></div>
+        <ng-container class="d-flex justify-content-center">
+          <div class="d-flex flex-column align-items-center">
+            <div [ngClass]="this.IsMobile() ? 'icone-mobile' : 'icone'">
+              <i class="bi bi-send"></i>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center"
+              [ngClass]="this.IsMobile() ? 'flex-wrap' : 'flex-column'"
+            >
+              <div
+                [ngClass]="
+                  this.IsMobile() ? 'titulo-mobile text-center' : 'titulo'
+                "
+              >
+                Divulgação do Edital
+              </div>
+              <div class="data">14/03/2024</div>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column align-items-center"
+            [ngClass]="this.IsMobile() ? ' mb-3' : ''"
+          >
+            <div [ngClass]="this.IsMobile() ? 'icone-mobile' : 'icone'">
+              <i class="bi bi-pencil-square fase-atual"></i>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center"
+              [ngClass]="this.IsMobile() ? 'flex-wrap' : 'flex-column'"
+            >
+              <div
+                [ngClass]="
+                  this.IsMobile() ? 'titulo-mobile text-center' : 'titulo'
+                "
+              >
+                Inscrição via web
+              </div>
+              <div class="data">Estudante: 14/03 a 27/03</div>
+              <div class="data">Professor: 14/03 a 25/03</div>
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <div [ngClass]="this.IsMobile() ? 'icone-mobile' : 'icone'">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center"
+              [ngClass]="this.IsMobile() ? 'flex-wrap' : 'flex-column'"
+            >
+              <div
+                [ngClass]="
+                  this.IsMobile() ? 'titulo-mobile text-center' : 'titulo'
+                "
+              >
+                Divulgação dos Selecionados
+              </div>
+              <div class="data">...</div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

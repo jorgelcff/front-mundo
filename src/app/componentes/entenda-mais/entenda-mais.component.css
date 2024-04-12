@@ -1,0 +1,42 @@
+@import url('//fonts.googleapis.com/css?family=Roboto|Material+Icons');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.container-entenda-mais{
+  background-color: #D9EFFF !important;
+  margin: 0px;
+}
+
+.btn-english {
+  color: white;
+  background: #EA6013;
+}
+
+.container-card{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  height:130px;
+  width: 130px;
+  padding: 5px;
+
+  border: 2px solid;
+  border-color: #05996C;
+  border-radius: 25px;
+
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 12px;
+  font-weight: bold;
+
+  background-color: #D7E9EB;
+}
+
+.img-pais {
+  border-radius: 8px;
+  width: 250px !important;
+  height: 150px;
+}
+

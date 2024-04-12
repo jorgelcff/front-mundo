@@ -1,0 +1,166 @@
+<div class=" bg-white rounded-4 p-4 ms-2 me-2" [ngClass]="this.IsMobile() ? '' : 'card-container card-resultado' ">
+  <div class="container-fluid">
+    <div class="d-flex flex-column">
+      <!--Nome-->
+      <div class="fs-7 fw-semibold text-secondary">
+        Nome Completo
+      </div>
+      <div class="fw-bold user-select-none">
+        {{ this.dados.nome }}
+      </div>
+
+      <!--CPF e Data de nascimento-->
+      <div class="d-flex flex-wrap justify-content-between my-4">
+        <div>
+          <div class="fs-7 fw-semibold text-secondary">
+            CPF
+          </div>
+          <div class="fw-bold user-select-none">
+            {{ this.dados.cpf | cpf }}
+          </div>
+        </div>
+
+        <div>
+          <div class="fs-7 fw-semibold text-secondary ">
+            Data de nascimento
+          </div>
+          <div class="fw-bold user-select-none">
+            {{ this.dados.nascimento | date:'dd/MM/YYYY'}}
+          </div>
+        </div>
+
+        <div>
+          <div class="fs-7 fw-semibold text-secondary ">
+            Nota - {{ this.dados.tipo_nota | uppercase }}
+          </div>
+          <div class="fw-bold user-select-none">
+            {{ this.dados.tipo_nota === 'enem' ? this.dados.nota_enem : this.dados.nota_ssa }}
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!--Faculdade-->
+      <ng-container *ngIf="this.ExibirFaculdade()">
+        <div class="fs-7 fw-semibold text-secondary">
+          Instituição de ensino
+        </div>
+        <div class="fw-bold">
+          {{ this.dados.faculdade }}
+        </div>
+      </ng-container>
+
+      <!-- Status -->
+      <app-status-candidato [status]="this.dados.status" />
+
+      <!-- Status documentos -->
+
+      <app-documento-candidato *ngIf="this.ExibirNota()"
+        tipoDocumento="Comprovante {{ this.dados.tipo_nota | uppercase }}" [status]="this.dados.comprovante_nota!"
+        nomeDocumento="comprovante-{{ this.dados.tipo_nota }}" />
+
+      <app-documento-candidato *ngIf="this.ExibirFicha19()" tipoDocumento="Declaração ensino médio"
+        [status]="this.dados.declaracao_ensino_medio!" nomeDocumento="declaração-ensino-médio" />
+
+      <app-documento-candidato *ngIf="this.ExibirResidencia()" tipoDocumento="Comprovante de residência"
+        [status]="this.dados.comprovante_residencia!" nomeDocumento="comprovante-de-residência" />
+
+      <app-documento-candidato *ngIf="this.ExibirFicha18()" tipoDocumento="Declaração ensino fundamental"
+        [status]="this.dados.declaracao_ensino_fundamental!" nomeDocumento="declaração-ensino-fundamental" />
+
+      <app-documento-candidato *ngIf="this.ExibirResidenciaEspecial()"
+        tipoDocumento="Comprovante de residência especial" [status]="this.dados.comprovante_residencia_especial!"
+        nomeDocumento="comprovante-de-residência-especial" />
+
+
+      <!-- Motivo da reprovação -->
+      <!-- <div *ngIf="this.dados.status === '0' ? true : false" class="my-4">
+        <div class="fs-7 fw-semibold text-secondary">
+          Motivo da reprovação
+        </div>
+        <div class="ms-3 my-2">
+          {{ this.dados.motivo }}
+        </div>
+      </div> -->
+
+      <div class="mt-3" *ngIf="this.ExibirTextoAProvado()">
+        <p>Você foi SELECIONADO(A) para o curso <strong>{{ this.dados.curso }}</strong> na faculdade <strong>{{ this.dados.faculdade }}</strong>.</p>
+
+        <p>A Matrícula Unificada será realizada nos dias 18 e 19 de julho, das 08h às 16h, presencialmente, no Edifício
+          Vasco Rodrigues - Cais do Apolo, 222, 8° andar, Recife - PE.</p>
+
+        <p>
+          Os documentos necessários para a realização da matrícula e que deverão ser apresentados fisicamente no local
+          (original e cópia), conforme consta no edital, são:<br><br>
+
+          1) Documento comprobatório da nota do ENEM ou SSA da edição informada pelos(as) CANDIDATOS(AS) para concorrer
+          à
+          vaga;<br>
+          2) CPF ou Carteira de Habilitação com data de validade vigente;<br>
+          3) RG ou Carteira de Habilitação com data de validade vigente;<br>
+          4) Certificado de Conclusão do Ensino Médio (Ficha 19);<br>
+          5) Histórico Escolar;<br>
+          6) Comprovante de Reservista do Exército (para homens maiores de 18 anos);<br>
+          7) Certidão de Nascimento, Casamento ou Divórcio;<br>
+          8) Título de Eleitor (quando maior de idade);<br>
+          9) Comprovante de que está em dia com a Justiça Eleitoral;<br>
+          10) Comprovante de residência atualizado;<br>
+          11) 2 (duas) Fotos 3x4;<br>
+          12) No caso de CANDIDATOS(AS) menores de 18 anos, além da documentação acima referida, será necessário que seu
+          Representante Legal compareça com O(A) CANDIDATO(A) no dia da Matrícula e apresente RG e CPF.<br>
+        </p>
+
+        <p>
+          Lembramos que é de inteira responsabilidade dos candidatos a certificação da validade de todos os documentos
+          necessários, bem como a observância das informações de horário e local.</p>
+
+        <p>
+          A não realização da matrícula será configurada como desistência, ficando a vaga disponível para chamada da
+          lista
+          de espera.
+        </p>
+
+        <p>
+          Atenciosamente,<br>
+
+          Comissão de Seleção Embarque Digital
+          Secretaria de Educação do Recife
+          Núcleo de Gestão Porto Digital
+        </p>
+      </div>
+
+      <!-- Recurso-->
+      <ng-container *ngIf="this.ExibirRecurso()">
+        <div class="fw-bold mt-3 mb-2">
+          Deseja entrar com recurso?
+        </div>
+        <!-- <div>
+          Previsto em edital, o <strong>recurso</strong> é um instrumento de contestação e/ou de pedido de revisão de
+          resultados, o qual
+          pode ser utilizado pelo(a) candidato(a) que se sinta lesado(a) por entender como incorreto o resultado do
+          mesmo.
+          <br>
+          Utilize a caixa de texto abaixo para enviar sua <strong>solicitação de recurso</strong> durante o período que
+          vai do dia
+          11/07/23 ao dia 13/07/2023.
+        </div> -->
+        <div class="my-3">
+          <form [formGroup]="this.form">
+            <textarea class="form-control" maxlength="255" style="height: 120px" formControlName="motivo"></textarea>
+          </form>
+        </div>
+      </ng-container>
+
+      <div class="d-flex flex-row mt-4">
+        <button type="button" class="btn btn-light fw-semibold px-4" (click)="this.Cancelar()">Cancelar</button>
+        <button type="button" class="btn btn-primary fw-semibold px-4 ms-3" [disabled]="this.VerificarCarregando()"
+          *ngIf="this.ExibirRecurso()" (click)="this.EnviarRecurso()">
+          {{ this.ExibirCarregando() }}
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>

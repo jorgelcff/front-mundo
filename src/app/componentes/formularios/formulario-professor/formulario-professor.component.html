@@ -1,0 +1,171 @@
+<div class="heigth">
+  <div class=" bg-white rounded-4 p-4 ms-2 me-2"
+    [ngClass]="this.IsMobile() ? '' : 'card-container' ">
+    <div class="container-fluid">
+      <div
+        class="d-flex flex-row align-items-center justify-content-between mb-3">
+        <div class="fs-3 fw-bolder">Informações do professor</div>
+      </div>
+      <form [formGroup]="this.form">
+
+        <!-- Matricula -->
+        <div class="mb-3">
+          <label for="cpf" class="form-label fw-semibold"
+            [ngClass]="this.matriculaValid ? 'text-danger' : '' ">Matricula
+            <span class="fw-lighter fw-7">(Obrigatório)</span>
+          </label>
+          <input type="text" class="form-control input-background"
+            (keypress)="this.Removerletra($event, 10000000000)"
+            name="matricula" formControlName="matricula" required>
+        </div>
+
+        <div *ngIf="matriculaExiste">
+          <!-- Nome Completo -->
+          <div class="mb-3">
+            <label for="nome" class="form-label fw-semibold"
+              [ngClass]="this.nomeValid ? 'text-danger' : '' ">Nome completo
+              <span class="fw-lighter fw-7">(Obrigatório)</span> </label>
+            <input type="text" class="form-control input-background"
+              id="nomeInput" (keypress)="this.RemoverNumero($event)"
+              name="nome" formControlName="nome" required>
+          </div>
+
+          <!-- CPF -->
+          <div class="mb-3">
+            <label for="cpf" class="form-label fw-semibold"
+              [ngClass]="this.cpfValid ? 'text-danger' : '' ">CPF
+              <span class="fw-lighter fw-7">(Obrigatório)</span>
+            </label>
+            <input type="text" class="form-control input-background" name="cpf"
+              formControlName="cpf" mask="000.000.000-00" required>
+          </div>
+
+          <!-- Endereço -->
+          <div class="mb-3">
+            <label for="endereco" class="form-label fw-semibold"
+              [ngClass]="this.enderecoValid ? 'text-danger' : '' ">Endereço
+              <span
+                class="fw-lighter fw-7">(Obrigatório)</span> </label>
+            <input type="text" class="form-control input-background"
+              id="enderecoInput" name="endereco"
+              formControlName="endereco" required>
+          </div>
+
+          <!-- Email e Telefone -->
+          <div class="row mb-3">
+            <div class="col">
+              <label for="email" class="form-label fw-semibold"
+                [ngClass]="this.emailValid ? 'text-danger' : '' ">E-mail
+                <span class="fw-lighter fw-7">(Obrigatório)</span> </label>
+              <input type="text" class="form-control input-background"
+                name="email" formControlName="email" required>
+            </div>
+
+            <div class="col">
+              <label for="celular" class="form-label fw-semibold"
+                [ngClass]="this.celularValid ? 'text-danger' : '' ">Celular
+                <span
+                  class="fw-lighter fw-7">(Obrigatório)</span>
+              </label>
+              <input type="tel" class="form-control input-background"
+                name="celular" formControlName="celular" required
+                mask="(00) 00000-0000">
+            </div>
+          </div>
+
+          <!-- Diploma -->
+          <div class="mb-3">
+            <label for="celular" class="form-label fw-semibold"
+              [ngClass]="this.diplomaValid ? 'text-danger' : '' ">Diploma de
+              licenciatura em letras <span
+                class="fw-lighter fw-7">(Obrigatório)</span>
+            </label>
+            <input class="form-control" type="file" id="formFile" formControlName="diploma" (change)="UploadDiploma($event)">
+          </div>
+
+          <!-- Plano de aula -->
+          <div class="mb-3">
+            <label for="celular" class="form-label fw-semibold"
+              [ngClass]="this.planoValid ? 'text-danger' : '' ">Plano de aula
+              <span
+                class="fw-lighter fw-7">(Obrigatório)</span>
+            </label>
+            <input class="form-control" type="file" id="formFile" formControlName="planoDeAula" (change)="UploadPlano($event)">
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- <div *ngIf="matriculaExiste" class=" "
+    [ngClass]="this.IsMobile() ? '' : 'card-container' ">
+    <div class="container-fluid">
+      <div class="mt-4">
+        <form [formGroup]="this.formCheckInformacao">
+          <div class="form-check ">
+            <input class="form-check-input input-check-background"
+              type="checkbox"
+              name="declaroInformacoes"
+              formControlName="declaroInformacoes">
+            <label class="form-check-label ms-2" for="flexCheckChecked"
+              [ngClass]="this.declaroInformacoesValid ? 'text-danger' : '' ">
+              Declaro, sob as penas da lei, que todas as informações
+              apresentadas
+              são verdadeiras e assumo total
+              responsabilidade sobre as mesmas.<a
+                class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="https://educ.rec.br/recifenomundo/assets/pdfs/PROFESSOR%20(anexo%20II)%20TERMO%20DE%20COMPROMISSO.pdf"
+                target="_blank">
+                Ver Termo
+              </a>
+            </label>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div> -->
+
+  <div *ngIf="matriculaExiste" class=" "
+    [ngClass]="this.IsMobile() ? '' : 'card-container' ">
+    <div class="container-fluid">
+      <div class="mt-4">
+        <form [formGroup]="this.formCheckImagem">
+          <div class="form-check ">
+            <input class="form-check-input input-check-background"
+              type="checkbox"
+              name="declaroImagem"
+              formControlName="declaroImagem">
+            <label class="form-check-label ms-2" for="flexCheckChecked"
+              [ngClass]="this.declaroImagemValida ? 'text-danger' : '' ">
+              Declaro, que li e autorizo o uso da minha imagem.<a
+                class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="https://educ.rec.br/recifenomundo/assets/pdfs/PROFESSOR%20(anexo%20III)%20TERMO%20DE%20AUTORIZA%C3%87%C3%83O%20PARA%20TRATAMENTO%20DE%20DADOS%20E%20USO%20DE%20IMAGEM.pdf"
+                target="_blank">
+                Ver Termo
+              </a>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex align-items-center my-5 pe-2"
+    [class]="this.IsMobile() ? 'flex-column justify-content-center' : 'flex-row-reverse justify-content-between' ">
+
+    <div class="d-grid gap-2 ">
+      <button type="button" class="btn btn-outline-light"
+        [disabled]="this.carregando"
+        (click)="this.FinalizarCandidatura()">{{ this.carregando ? '' :
+        matriculaExiste === true ? "Finalizar processo de candidatura" :
+        "Prosseguir para próxima etapa"}}<i
+          [ngClass]="this.ExibirLoading()"></i></button>
+    </div>
+    <div [class]="this.IsMobile() ? 'mt-3 justify-content-center' : 'ms-5' ">
+
+    </div>
+  </div>
+
+</div>

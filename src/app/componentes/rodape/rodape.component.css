@@ -1,0 +1,9 @@
+@import url('//fonts.googleapis.com/css?family=Roboto|Material+Icons');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg-rodape{
+  background-color: #213cb0 !important;
+}

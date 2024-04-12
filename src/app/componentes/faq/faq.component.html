@@ -1,0 +1,501 @@
+<div class="fs-3 fw-bolder mt-3 mb-1" style="color: #2B5FAD;">
+  Perguntas frequentes
+</div>
+<div class="d-flex flex-row justify-content-center gap-3 my-4">
+  <button type="button" class="btn btn-lg" [class]="exibirIngles ? 'btn-english' : 'btn-outline-english' "
+    (click)="ExibirConteudoIngles()">Curso de
+    inglês</button>
+  <button type="button"
+    class="btn btn-lg" [class]="exibirIntercambio ? 'btn-primary' : 'btn-outline-primary' "
+    (click)="ExibirConteudoIntercambio()">Intercâmbio</button>
+</div>
+
+<div *ngIf="exibirIngles">
+
+  <div class="accordion mb-3" id="accordionExample">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading1">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse1" aria-expanded="false"
+          aria-controls="collapseThree">
+          COMO SEREI SELECIONADO APÓS MINHA INSCRIÇÃO PARA A ETAPA DO CURSO?
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse"
+        aria-labelledby="heading16"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Todos os candidatos serão classificados em ordem decrescente, de
+          acordo com a média anual da língua portuguesa e de matemática, do ano
+          anterior à inscrição do curso.
+
+          PROFESSORES:
+          Todos os candidatos serão classificados em ordem de adesão, até que o
+          número total de vagas seja preenchido. Os inscritos remanescentes
+          poderão ser remanejados, caso haja desistência dos classificados, após
+          o período de confirmação de matrícula.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading2">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse2" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUANDO SERÃO AS AULAS?
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse"
+        aria-labelledby="heading16"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>ESTUDANTES:</strong><br>
+          Os turnos das aulas serão definidos pela Secretaria Executiva de
+          Gestão de Rede, respeitando-se as especificidades de cada escola.
+          Deverá ser cumprida a carga horária de 1 hora/aula, 4 (quatro) dias da
+          semana, no contra turno até a conclusão das 120h aulas.
+
+          <div class="d-flex flew-wrap gap-1 my-3">
+            <img src="assets/imagens/aulas_estudante_1.png" class="img-fluid"
+              alt="...">
+            <img src="assets/imagens/aulas_estudante_2.png" class="img-fluid"
+              alt="...">
+            <img src="assets/imagens/aulas_estudante_3.png" class="img-fluid"
+              alt="...">
+          </div>
+
+          <strong>PROFESSORES:</strong><br>
+          Os turnos das aulas serão definidos pela Secretaria Executiva de
+          Gestão de Rede, respeitando-se as especificidades de cada escola.
+          Deverá ser cumprida a carga horária de 1 hora/aula, 4 (quatro) dias da
+          semana, no contra turno até a conclusão das 120h aulas.
+
+          <div class="d-flex flew-wrap gap-1 my-3">
+            <img src="assets/imagens/aulas_professores_1.png" class="img-fluid"
+              alt="...">
+            <img src="assets/imagens/aulas_professores_2.png" class="img-fluid"
+              alt="...">
+            <img src="assets/imagens/aulas_professores_3.png" class="img-fluid"
+              alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading3">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse3" aria-expanded="false"
+          aria-controls="collapseThree">
+          COMO SERÃO AS AULAS?
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse"
+        aria-labelledby="heading3"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          A sala de aula para o aprendizado de um idioma apresenta
+          características distintas de uma sala de aula tradicional. A
+          metodologia desenvolvida para alunos e professores deve possibilitar o
+          desenvolvimento de habilidades e competências linguísticas na língua
+          inglesa, trabalhando de forma equilibrada as quatro habilidades, por
+          meio de práticas motivadoras, cotidianas e reflexivas, adequadas a
+          cada faixa etária. Levando os estudantes à autonomia no uso
+          comunicativo da língua conforme os níveis de aprendizagem descritos
+          pelo Quadro Comum Europeu de Referência para as Línguas.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading4">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse4" aria-expanded="false"
+          aria-controls="collapseThree">
+          COMO SÃO AS TURMAS?
+        </button>
+      </h2>
+      <div id="collapse4" class="accordion-collapse collapse"
+        aria-labelledby="heading4"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Serão formadas por no mínimo 10 estudantes e no máximo de 25 por
+          turma. A definição das turmas da formação dos professores será
+          realizada mediante teste de nivelamento com o objetivo de diagnosticar
+          a proficiência dos mesmos para que sejam direcionados às respectivas
+          turmas correspondentes ao nível de proficiência identificado.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading5">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse5" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUAL MATERIAL IREI UTILIZAR?
+        </button>
+      </h2>
+      <div id="collapse5" class="accordion-collapse collapse"
+        aria-labelledby="heading5"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          O material didático impresso e acesso à plataforma digital que atende
+          a carga horária e cronograma de aulas propostas. Após finalizar o
+          curso, os alunos deverão possuir enriquecimento das estruturas básicas
+          do idioma para se comunicar com mais segurança e conseguir conversar
+          com mais facilidade.<br>
+
+          <div class="mt-3">
+            <strong>ESTUDANTES:</strong><br>
+            Os candidatos selecionados no curso de inglês do Programa Recife no
+            Mundo receberão gratuitamente o seguinte material didático:<br>
+            <ul>
+              <li>
+                Livro texto
+              </li>
+              <li>
+                Senha de acesso à plataforma (atividades e exercícios)
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-3">
+            <strong>PROFESSORES:</strong><br>
+            Os candidatos selecionados para a formação de inglês do Programa
+            Recife no Mundo receberão gratuitamente o seguinte material
+            didático:<br>
+            <ul>
+              <li>
+                Livro texto
+              </li>
+              <li>
+                Senha de acesso à plataforma (atividades e exercícios)
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading6">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse6" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUAIS AS MINHAS OBRIGAÇÕES COMO PARTICIPANTE DO CURSO/FORMAÇÃO?
+        </button>
+      </h2>
+      <div id="collapse6" class="accordion-collapse collapse"
+        aria-labelledby="heading6"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE:</strong>
+            <ol>
+              <li>Apresentar ao gestor da sua escola os Termos de Consentimento,
+                devidamente assinados pelo seu responsável legal.</li>
+              <li>Dedicar-se integralmente ao cumprimento do plano de atividades
+                do curso.</li>
+              <li>Participar das avaliações no decorrer do curso, tendo em vista
+                que os resultados dessas serão levados em consideração para a
+                conclusão final do curso de inglês.</li>
+              <li>Ser assíduo devendo obter durante todo o curso a frequência
+                mínima de 80% das aulas, comprovada através da frequência
+                online,
+                tendo em vista que o número de faltas será levado em
+                consideração
+                como critério para a desclassificação no processo seletivo ao
+                Intercâmbio do Programa Recife no Mundo.</li>
+            </ol>
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong>
+            <ol>
+              <li>Apresentar no primeiro dia de aula os Termos de Consentimento
+                citados no Edital;</li>
+              <li>Participar das avaliações no decorrer da formação, tendo em
+                vista que os resultados dessas serão levados em consideração
+                para a conclusão da formação de inglês;</li>
+              <li>Ser assíduo, devendo obter durante todo o curso a frequência
+                mínima de 75% das aulas, comprovada através da frequência
+                online, tendo em vista que o número de faltas será levado em
+                consideração como critério para a desclassificação no processo
+                seletivo ao Intercâmbio do Programa Recife no Mundo.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading7">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse7" aria-expanded="false"
+          aria-controls="collapseThree">
+          COMO CONFIRMAR MINHA MATRÍCULA NO CURSO?
+        </button>
+      </h2>
+      <div id="collapse7" class="accordion-collapse collapse"
+        aria-labelledby="heading7"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE</strong>
+            Na data prevista no cronograma apresentar-se ao gestor escolar na
+            escola em que teve seu nome publicado, no primeiro dia de aula do
+            curso de inglês para confirmar a matrícula, apresentando os termos
+            devidamente assinados pelo responsável legal.
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR</strong>
+            Na data prevista no cronograma apresentar-se no polo, em que teve
+            seu
+            nome publicado, no primeiro dia de aula da formação de inglês para
+            confirmar a matrícula, apresentando os termos devidamente assinados.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading8">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse8" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUAIS TERMOS DEVEREI APRESENTAR ASSINADOS NA CONFIRMAÇÃO DA MATRÍCULA
+          DO CURSO?
+        </button>
+      </h2>
+      <div id="collapse8" class="accordion-collapse collapse"
+        aria-labelledby="heading8"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE:</strong>
+            <ol>
+              <li>Termo de Compromisso (anexo II)</li>
+              <li>Termo de autorização para o tratamento de dados e uso de
+                imagem (anexo III)</li>
+              <li>Termo de autorização de participação (anexo IV)</li>
+            </ol>
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong>
+            <ol>
+              <li>Termo de Compromisso (anexo II)</li>
+              <li>Termo de autorização para o tratamento de dados e uso de
+                imagem (anexo III)</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div *ngIf="exibirIntercambio">
+  <div class="accordion mb-3" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading9">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse9" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUAIS AS MINHAS OBRIGAÇÕES COMO PARTICIPANTE DO INTERCÂMBIO?
+        </button>
+      </h2>
+      <div id="collapse9" class="accordion-collapse collapse"
+        aria-labelledby="heading9"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE:</strong>
+            <ol>
+              <li>Participar das reuniões requeridas pelas Gerências Regionais
+                de Educação/ Secretaria Municipal de Educação.</li>
+              <li>Imprescindível que o estudante mantenha atualizado seu
+                endereço, telefone, e-mail e redes sociais junto à cada Gerência
+                Regional de Educação, enquanto estiver participando do Programa
+                Recife no Mundo, sendo de sua responsabilidade os prejuízos
+                decorrentes da não atualização.</li>
+              <li>Acompanhar a divulgação de todos os avisos, comunicados e
+                outras informações pertinentes ao processo seletivo, os quais
+                serão divulgados nos meios de comunicação utilizados pelo
+                Programa Recife no Mundo e pela empresa de intercâmbio
+                responsável por seu embarque.</li>
+              <li>Cumprir todas as etapas do processo de preparação para o
+                intercâmbio até o embarque.</li>
+              <li>O estudante selecionado ao intercâmbio deverá apresentar a
+                frequência mínima de 75% no curso do Programa Recife no Mundo
+                até a data do embarque, estando sujeito à desclassificação, caso
+                descumpra essa cláusula, pois o número de faltas será levado em
+                consideração como critério para a desclassificação no processo
+                seletivo.</li>
+              <li>O não cumprimento de quaisquer obrigações fixadas nos itens
+                anteriores implicará na eliminação do candidato.</li>
+            </ol>
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong>
+            <ol>
+              <li>Participar das reuniões requeridas pelas Gerências Regionais
+                de Educação/Secretaria Municipal de Educação.</li>
+              <li>Imprescindível que o professor cursista selecionado mantenha
+                atualizado seu endereço, telefone, e-mail e redes sociais junto
+                à cada Gerência Regional de Educação, enquanto estiver
+                participando do Programa Recife no Mundo, sendo de sua
+                responsabilidade os prejuízos decorrentes da não
+                atualização.</li>
+              <li>Acompanhar a divulgação de todos os avisos, comunicados e
+                outras informações pertinentes ao processo seletivo, os quais
+                serão divulgados nos meios de comunicação utilizados pelo
+                Programa Recife no Mundo e pela empresa de intercâmbio
+                responsável por seu embarque.</li>
+              <li>Cumprir todas as etapas do processo de preparação para o
+                intercâmbio até o embarque.</li>
+              <li>O professor cursista selecionado ao intercâmbio deverá
+                apresentar frequência mínima de 75% no curso do Programa Recife
+                no Mundo até a data do embarque, estando sujeito à
+                desclassificação, caso descumpra essa cláusula, pois o número de
+                faltas será levado em consideração como critério para a
+                desclassificação no processo seletivo.</li>
+              <li>O não cumprimento de quaisquer obrigações fixadas nos itens
+                anteriores implicará na eliminação do candidato.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading10">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse10" aria-expanded="false"
+          aria-controls="collapseThree">
+          COMO CONFIRMAR MINHA PARTICIPAÇÃO NO INTERCÂMBIO?
+        </button>
+      </h2>
+      <div id="collapse10" class="accordion-collapse collapse"
+        aria-labelledby="heading10"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE:</strong><br>
+            Na <strong>Reunião de Orientação</strong>, em data, hora e local a
+            serem
+            oportunamente comunicados, o estudante selecionado ao intercâmbio
+            deverá comparecer e apresentar os documentos que serão solicitados.
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong><br>
+            Na <strong>Reunião de Orientação</strong>, em data, hora e local a
+            serem
+            oportunamente comunicados, o professor selecionado ao intercâmbio
+            deverá comparecer e apresentar os documentos que serão solicitados.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading11">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse11" aria-expanded="false"
+          aria-controls="collapseThree">
+          QUAIS TERMOS DEVEREI APRESENTAR ASSINADOS NA CONFIRMAÇÃO DO
+          INTERCÂMBIO?
+        </button>
+      </h2>
+      <div id="collapse11" class="accordion-collapse collapse"
+        aria-labelledby="heading11"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            Os modelos dos termos estão nos anexos dos respectivos editais de
+            inscrição.<br>
+            <strong>ESTUDANTE:</strong><br>
+            <ol>
+              <li>Termo de Frequência no Curso </li>
+              <li>Termo de Autorização para o tratamento de dados e uso de
+                imagem </li>
+              <li>Termo de Compromisso dos responsáveis legais e intercambistas
+              </li>
+              <li>Termo de Responsabilidades e Informação de Saúde</li>
+            </ol>
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong><br>
+            <ol>
+              <li>Termo de Compromisso</li>
+              <li>Termo de Autorização para o tratamento de dados e uso de
+                imagem</li>
+              <li>Termo de Responsabilidade e Informação de Saúde</li>
+            </ol>
+          </div>
+          <div class="fw-bold">
+            Ficar atento para utilizar os termos que estão constando no seu
+            edital de seleção
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading12">
+        <button class="accordion-button collapsed  fw-bold" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse12" aria-expanded="false"
+          aria-controls="collapseThree">
+          MEU COMPROMISSO AO RETORNAR DO INTERCÂMBIO?
+        </button>
+      </h2>
+      <div id="collapse12" class="accordion-collapse collapse"
+        aria-labelledby="heading12"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div>
+            <strong>ESTUDANTE:</strong><br>
+            <ol>
+              <li>Ser embaixador do Programa de Intercâmbio Internacional Recife
+                no Mundo relatando a experiência adquirida no exterior, por meio
+                de apresentações, palestras e outras atividades programadas,
+                quando convocado pela Secretaria Municipal de Educação;</li>
+              <li>Atuar como um jovem líder na escola ou em sua comunidade,
+                inclusive como voluntário em eventos e/ou programas
+                socioeducativos e culturais.</li>
+            </ol>
+          </div>
+          <div class="mt-3">
+            <strong>PROFESSOR:</strong><br>
+            <ol>
+              <li>
+                O professor intercambista, ao retornar, comprometer-se-á a
+                realizar projeto de intervenção, aula, palestra, curso ou outras
+                formas de socialização do conhecimento experienciado no programa
+                de intercâmbio. Além de permanecer no órgão ou entidade de
+                origem ou lotação, por período não inferior a 2 (dois) anos e,
+                em caso de descumprimento, devolver todos os recursos gastos
+                pelo Município para a sua participação.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

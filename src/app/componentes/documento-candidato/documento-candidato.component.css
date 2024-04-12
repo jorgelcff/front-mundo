@@ -1,0 +1,31 @@
+.text-secondary{
+  color: #4A4A4A !important;
+}
+
+.bg-documento{
+  background-color: #EEF2F8;
+}
+
+.bg-success{
+  background-color: #D6EFE3 !important;
+}
+
+.bg-danger{
+  background-color: #FFE7E7 !important;
+}
+
+.bg-warning{
+  background-color: #e7efd6 !important;
+}
+
+.border-documento{
+  border-color: #E2E6EB;
+}
+
+.border-success{
+  border-color: #11B163 !important;
+}
+
+.text-success{
+  color: #11B163 !important;
+}

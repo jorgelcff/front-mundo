@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../../../assets/fontes/Montserrat-Regular.ttf');
+  }
+
+  a, button {
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 5px;
+  }
+
+  /* .navbar-bg-primary {
+    background-color: #1C4496;
+  } */
+
+  .text-primary {
+    color:#1C4496 !important;
+  }
+
+  .navbar-bg-primary{
+    background-color: #213cb0 !important;
+  }
+
+  .nav-images{
+    width: 50%;
+  }

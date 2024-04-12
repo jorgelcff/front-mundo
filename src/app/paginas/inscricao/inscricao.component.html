@@ -1,0 +1,46 @@
+<div class="d-flex flex-column align-items-center mx-auto mt-5" [ngStyle]="this.ExibirFormulario() === null ? {'height':'75vh'} : {}">
+  <!-- <img class="" src="https://educ.rec.br/educarecife/embarquedigital/assets/imagens/logo_embarque_colorida.png"
+    style="height: 75px;" alt="Imagem de estudante">
+  <div class="fw-bold fs-4 mt-3">Inscrições encerradas!</div> -->
+
+
+  <app-card-informativo></app-card-informativo>
+
+  <div *ngIf="this.ExibirFormulario() === null" class="mt-5 bg-white rounded-4 p-4 ms-2 me-2" [ngClass]="this.IsMobile() ? '' : 'card-container' ">
+    <div class="container-fluid">
+
+      <form [formGroup]="this.form">
+        <!-- Matricula -->
+        <div class="row">
+
+          <div class="col">
+            <label for="nomeCompleto" class="form-label fw-semibold"
+              [ngClass]="this.matriculaValid ? 'text-danger' : '' ">Matrícula <span
+                class="fw-lighter fw-7">(Obrigatório)</span>
+            </label>
+            <input type="tel" class="form-control input-background" name="matricula"
+              (keypress)="this.Removerletra($event, 10000000000)" maxlength="12" formControlName="matricula" required>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div *ngIf="this.ExibirFormulario() === null" class="d-flex flex-row-reverse mt-5"
+    [style]="this.IsMobile() ? '' : 'width: 40rem;'">
+    <div class="">
+      <button type="button" class="btn btn-outline-light" [disabled]="this.carregando"
+        (click)="this.BuscarMatricula()">{{ this.carregando ? '' : "Prosseguir para próxima etapa" }}<i [ngClass]="this.ExibirLoading()"></i></button>
+    </div>
+  </div>
+
+
+  <!-- <app-inscricao-formulario2 *ngIf="this.PegarEtapa() === 1" class="mt-5 mb-3"></app-inscricao-formulario2> -->
+
+  <app-formulario-aluno *ngIf="this.ExibirFormulario() != null" class="mt-5 mb-3"></app-formulario-aluno>
+
+  <!-- <app-inscricao-formulario3 *ngIf="this.PegarEtapa() === 2" class="mt-5 mb-3"></app-inscricao-formulario3> -->
+</div>
+
+<app-rodape></app-rodape>

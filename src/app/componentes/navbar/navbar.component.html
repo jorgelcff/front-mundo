@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg navbar-bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+        class="ps-3"
+        src="https://educ.rec.br/recifenomundo/assets/imagens/Marca-PCR-branca-alternativa.png"
+        [style]="
+          this.IsMobile()
+            ? 'width: 10rem;'
+            : 'width: 12rem; margin-left: 5rem; '
+        "
+        alt="Logo prefeitura do recife"
+      />
+    </a>
+    <button
+      class="navbar-toggler bg-white"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link text-white mx-4" href="#inicio">Inicio</a>
+        <a class="nav-link text-white mx-4" href="#fase">Fase</a>
+        <a class="nav-link text-white mx-4" href="#edital">Edital</a>
+        <a class="nav-link text-white mx-4" href="#entenda-mais"
+          >Entenda mais</a
+        >
+        <a class="nav-link text-white mx-4" href="#faq">F.A.Q</a>
+
+        <div [ngSwitch]="this.routerActive">
+          <a
+            *ngSwitchCase="'professor'"
+            (click)="this.irParaConsultarEstudante()"
+            class="text-white"
+            style="text-decoration: none"
+          >
+            <button
+              type="button"
+              class="btn btn-light fw-semibold text-primary"
+              style="font-size: 14px"
+            >
+              CONSULTE ESTUDANTE
+            </button>
+          </a>
+          <a
+            *ngSwitchCase="'estudante'"
+            (click)="this.irParaConsultarProfessor()"
+            class="text-white"
+            style="text-decoration: none"
+            ><button
+              type="button"
+              class="btn btn-light fw-semibold text-primary"
+              style="font-size: 14px"
+            >
+              CONSULTE PROFESSOR
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

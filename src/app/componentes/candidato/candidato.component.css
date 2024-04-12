@@ -1,0 +1,18 @@
+textarea{
+  resize: none;
+  background-color: #EEF2F8 !important;
+}
+
+.card-resultado{
+  width: 35vw;
+}
+
+
+
+.text-secondary{
+  color: #4A4A4A !important;
+}
+
+.btn-light{
+  background-color: #F9F9F9 !important;
+}

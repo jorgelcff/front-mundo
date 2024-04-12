@@ -1,0 +1,142 @@
+<app-navbar></app-navbar>
+
+<div class="main-title">
+  <h2>Consulte sua candidatura</h2>
+</div>
+
+<div class="main-container">
+  <div class="search-bar-container">
+    <form
+      [formGroup]="form"
+      (ngSubmit)="ExibirFormularioDeNotas()"
+      class="search-input-group"
+    >
+      <input
+        type="search"
+        class="form-control"
+        id="matricula"
+        formControlName="matricula"
+        placeholder="Matrícula do professor"
+      />
+      <button class="search-button" type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </div>
+  <div class="download-button-container">
+    <button class="download-button">
+      Fazer download da lista de aprovados
+      <i class="fa-solid fa-download"></i>
+    </button>
+  </div>
+
+  <div *ngIf="carregando" class="spinner">
+    <i class="fa-solid fa-spinner"></i>
+  </div>
+
+  <ng-container *ngIf="!carregando">
+    <div *ngIf="notaProfessor" class="resultado-consulta">
+      <!-- Informações do Professor -->
+      <div class="info-container">
+        <div class="info-item">
+          <span class="info-title">Nome:</span>
+          <span class="info-value">{{ notaProfessor.prof_nome }}</span>
+        </div>
+        <div class="info-item">
+          <span class="info-title">CPF:</span>
+          <span class="info-value">{{ notaProfessor.prof_cpf }}</span>
+        </div>
+      </div>
+
+      <!-- Notas e Acertos -->
+      <div class="nota-acertos-container">
+        <div class="nota-field">
+          <span class="field-title">Média Plano de Aula</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_media_plano_de_aula }}"
+            readonly
+          />
+        </div>
+        <div class="nota-field">
+          <span class="field-title">Média Apresentação Oral</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_media_apresentacao_oral }}"
+            readonly
+          />
+        </div>
+        <div class="nota-field">
+          <span class="field-title">Média Apresenção Didática</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_media_apresentacao_didatica }}"
+            readonly
+          />
+        </div>
+        <div class="nota-field">
+          <span class="field-title">Média Apresentação</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_media_apresentacao }}"
+            readonly
+          />
+        </div>
+
+        <div class="nota-field">
+          <span class="field-title">Nota Prova Escrita</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_nota_prova_escrita }}"
+            readonly
+          />
+        </div>
+        <div class="nota-field">
+          <span class="field-title">Total De Acertos</span>
+          <input
+            class="field-input"
+            type="text"
+            value="{{ notaProfessor.gab_acertos_prova }} Acertos"
+            readonly
+          />
+        </div>
+        <div class="nota-final-field">
+          <span class="field-title">Nota Final</span>
+          <input
+            class="field-input full-width"
+            type="text"
+            value="{{ notaProfessor.gab_nota_final }}"
+            readonly
+          />
+        </div>
+      </div>
+
+      <p class="field-title">Resultado da prova</p>
+
+      <!-- Resultado das questões -->
+      <div class="resultado-questoes">
+        <!-- Usando o loop para gerar cada questão -->
+        <div
+          class="grid-container"
+          *ngFor="let i of [].constructor(40); let num = index"
+        >
+          <span class="question-label">Questão {{ num + 1 }}</span>
+          <div
+            class="questao"
+            [ngClass]="{
+              acertou: notaProfessor['gab_questao_' + (num + 1)] == '1',
+              errou: notaProfessor['gab_questao_' + (num + 1)] == '0'
+            }"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <app-rodape class="fixed-bottom"></app-rodape> -->
+  </ng-container>
+</div>

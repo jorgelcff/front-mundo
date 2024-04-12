@@ -1,0 +1,2282 @@
+[
+  {
+    "codigo": "1",
+    "nome": "REITOR JOAO ALFREDO"
+  },
+  {
+    "codigo": "2",
+    "nome": "DE TEJIPIO"
+  },
+  {
+    "codigo": "3",
+    "nome": "ARRAIAL NOVO DO BOM JESUS"
+  },
+  {
+    "codigo": "4",
+    "nome": "PROFESSOR JOSE DA COSTA PORTO"
+  },
+  {
+    "codigo": "5",
+    "nome": "SANTA MARIA"
+  },
+  {
+    "codigo": "6",
+    "nome": "MONTEIRO LOBATO"
+  },
+  {
+    "codigo": "7",
+    "nome": "ANTONIO HERACLIO DO REGO"
+  },
+  {
+    "codigo": "9",
+    "nome": "PAULO VI"
+  },
+  {
+    "codigo": "10",
+    "nome": "MARIA DE SAMPAIO LUCENA"
+  },
+  {
+    "codigo": "11",
+    "nome": "SAO CRISTOVAO"
+  },
+  {
+    "codigo": "12",
+    "nome": "MARIO MELO"
+  },
+  {
+    "codigo": "13",
+    "nome": "OLINDINA MONTEIRO DE OLIVEIRA FRANCA"
+  },
+  {
+    "codigo": "14",
+    "nome": "ANTONIO FARIAS FILHO"
+  },
+  {
+    "codigo": "15",
+    "nome": "LUIZ VAZ DE CAMOES"
+  },
+  {
+    "codigo": "16",
+    "nome": "CICERO FRANKLIN CORDEIRO"
+  },
+  {
+    "codigo": "17",
+    "nome": "PROFESSORA ALMERINDA UMBELINO DE BARROS"
+  },
+  {
+    "codigo": "18",
+    "nome": "DIVINO ESPIRITO SANTO"
+  },
+  {
+    "codigo": "19",
+    "nome": "DA IPUTINGA"
+  },
+  {
+    "codigo": "20",
+    "nome": "JOAO XXIII"
+  },
+  {
+    "codigo": "21",
+    "nome": "PROFESSOR ADERBAL GALVAO"
+  },
+  {
+    "codigo": "22",
+    "nome": "PROFESSOR MAURO MOTA"
+  },
+  {
+    "codigo": "23",
+    "nome": "SOCIOLOGO GILBERTO FREYRE"
+  },
+  {
+    "codigo": "24",
+    "nome": "HUGO GERDAU"
+  },
+  {
+    "codigo": "25",
+    "nome": "TRES CARNEIROS"
+  },
+  {
+    "codigo": "26",
+    "nome": "MARGARIDA SERPA COSSART"
+  },
+  {
+    "codigo": "27",
+    "nome": "MUNDO ESPERANCA"
+  },
+  {
+    "codigo": "28",
+    "nome": "ENGENHEIRO GUILHERME DINIZ"
+  },
+  {
+    "codigo": "29",
+    "nome": "DOM BOSCO"
+  },
+  {
+    "codigo": "30",
+    "nome": "VILA SESAMO"
+  },
+  {
+    "codigo": "31",
+    "nome": "MARIA ADELAIDE DE BARROS"
+  },
+  {
+    "codigo": "32",
+    "nome": "PROFESSOR ADAUTO PONTES"
+  },
+  {
+    "codigo": "33",
+    "nome": "DO JORDAO"
+  },
+  {
+    "codigo": "34",
+    "nome": "ZUMBI DOS PALMARES"
+  },
+  {
+    "codigo": "36",
+    "nome": "CREUSA DE FREITAS CAVALCANTI"
+  },
+  {
+    "codigo": "38",
+    "nome": "SENADOR JOSE ERMIRIO DE MORAES"
+  },
+  {
+    "codigo": "39",
+    "nome": "CELIA ARRAES"
+  },
+  {
+    "codigo": "40",
+    "nome": "MAGALHAES BASTOS"
+  },
+  {
+    "codigo": "41",
+    "nome": "ENGENHO DO MEIO"
+  },
+  {
+    "codigo": "42",
+    "nome": "MANOEL ANTONIO DE FREITAS"
+  },
+  {
+    "codigo": "44",
+    "nome": "ANTONIO TIBURCIO"
+  },
+  {
+    "codigo": "45",
+    "nome": "DRAOMIRO CHAVES AGUIAR"
+  },
+  {
+    "codigo": "46",
+    "nome": "NOVO HORIZONTE"
+  },
+  {
+    "codigo": "47",
+    "nome": "MONSENHOR VIANA"
+  },
+  {
+    "codigo": "48",
+    "nome": "OCTAVIO DE MEIRA LINS"
+  },
+  {
+    "codigo": "49",
+    "nome": "DOUTOR RODOLFO AURELIANO"
+  },
+  {
+    "codigo": "50",
+    "nome": "PROFESSOR MOACYR DE ALBUQUERQUE"
+  },
+  {
+    "codigo": "51",
+    "nome": "POETA JOAQUIM CARDOSO"
+  },
+  {
+    "codigo": "52",
+    "nome": "DA MANGABEIRA"
+  },
+  {
+    "codigo": "53",
+    "nome": "ZZ PADRE GERALDO (EXTINTA/99)"
+  },
+  {
+    "codigo": "54",
+    "nome": "ANA MAURICIA WANDERLEY"
+  },
+  {
+    "codigo": "55",
+    "nome": "LUIZ LUA GONZAGA"
+  },
+  {
+    "codigo": "56",
+    "nome": "SAO JOAO BATISTA"
+  },
+  {
+    "codigo": "57",
+    "nome": "DOUTOR CAETE"
+  },
+  {
+    "codigo": "58",
+    "nome": "CORREGO DA BICA"
+  },
+  {
+    "codigo": "59",
+    "nome": "NOVA AURORA"
+  },
+  {
+    "codigo": "60",
+    "nome": "JOSEFINA MARINHO"
+  },
+  {
+    "codigo": "61",
+    "nome": "COMPOSITOR LEVINO FERREIRA"
+  },
+  {
+    "codigo": "62",
+    "nome": "MARGARIDA DE SIQUEIRA PESSOA"
+  },
+  {
+    "codigo": "63",
+    "nome": "BOA ESPERANCA"
+  },
+  {
+    "codigo": "64",
+    "nome": "PROFESSORA MARIA DA PAZ BRANDAO ALVES"
+  },
+  {
+    "codigo": "65",
+    "nome": "MARIA DA PAZ- ANX II - ALTO BELA VISTA"
+  },
+  {
+    "codigo": "66",
+    "nome": "PEDRO AUGUSTO"
+  },
+  {
+    "codigo": "67",
+    "nome": "PROF ELIZABETH SALES COUTINHO BARROS"
+  },
+  {
+    "codigo": "68",
+    "nome": "DOS TORROES"
+  },
+  {
+    "codigo": "69",
+    "nome": "INES SOARES DE LIMA"
+  },
+  {
+    "codigo": "70",
+    "nome": "PAIS E FILHOS"
+  },
+  {
+    "codigo": "71",
+    "nome": "HISTORIADOR FLAVIO GUERRA"
+  },
+  {
+    "codigo": "72",
+    "nome": "PADRE JOSE MATHIAS DELGADO"
+  },
+  {
+    "codigo": "73",
+    "nome": "CASA DOS FERROVIARIOS"
+  },
+  {
+    "codigo": "75",
+    "nome": "HENFIL"
+  },
+  {
+    "codigo": "76",
+    "nome": "GENERAL SAN MARTIN"
+  },
+  {
+    "codigo": "77",
+    "nome": "DOM JOSE LAMARTINE SOARES"
+  },
+  {
+    "codigo": "78",
+    "nome": "NADIR COLACO"
+  },
+  {
+    "codigo": "79",
+    "nome": "MAURICIO DE NASSAU"
+  },
+  {
+    "codigo": "80",
+    "nome": "JULIO VICENTE ALVES DE ARAUJO"
+  },
+  {
+    "codigo": "81",
+    "nome": "SANTO ANTONIO DO CACOTE"
+  },
+  {
+    "codigo": "82",
+    "nome": "LAGOA ENCANTADA"
+  },
+  {
+    "codigo": "83",
+    "nome": "VILA SAO MIGUEL"
+  },
+  {
+    "codigo": "84",
+    "nome": "DOS REMEDIOS"
+  },
+  {
+    "codigo": "85",
+    "nome": "VIRGEM PODEROSA"
+  },
+  {
+    "codigo": "86",
+    "nome": "ANTONIO LUIZ"
+  },
+  {
+    "codigo": "87",
+    "nome": "POETA JOAO CABRAL DE MELO NETO - ANEXO I"
+  },
+  {
+    "codigo": "88",
+    "nome": "PROFESSORA SONIA MARIA DE ARAUJO SOUZA"
+  },
+  {
+    "codigo": "89",
+    "nome": "DOUTOR ANTONIO CORREIA"
+  },
+  {
+    "codigo": "90",
+    "nome": "ALMIRANTE SOARES DUTRA"
+  },
+  {
+    "codigo": "91",
+    "nome": "DOS COELHOS"
+  },
+  {
+    "codigo": "92",
+    "nome": "DOM HELDER CAMARA"
+  },
+  {
+    "codigo": "93",
+    "nome": "SEDE DA SABEDORIA"
+  },
+  {
+    "codigo": "94",
+    "nome": "CELESTE VIDAL - NÃO"
+  },
+  {
+    "codigo": "95",
+    "nome": "SITIO DO CEU"
+  },
+  {
+    "codigo": "96",
+    "nome": "SANTA CECILIA"
+  },
+  {
+    "codigo": "97",
+    "nome": "PEDRO ALCANTARA"
+  },
+  {
+    "codigo": "98",
+    "nome": "PADRE JOSE DE ANCHIETA"
+  },
+  {
+    "codigo": "99",
+    "nome": "IRMA TEREZINHA BATISTA - PROJ NOVO VIVER"
+  },
+  {
+    "codigo": "100",
+    "nome": "BALBINA MENELAU"
+  },
+  {
+    "codigo": "101",
+    "nome": "MANOEL ROLIM"
+  },
+  {
+    "codigo": "102",
+    "nome": "ANDRE DE MELO"
+  },
+  {
+    "codigo": "103",
+    "nome": "VILA OPERARIA DO RECIFE"
+  },
+  {
+    "codigo": "104",
+    "nome": "GENERAL EMIDIO DANTAS BARRETO"
+  },
+  {
+    "codigo": "105",
+    "nome": "DO LEAO"
+  },
+  {
+    "codigo": "106",
+    "nome": "PINTOR LULA CARDOSO AYRES"
+  },
+  {
+    "codigo": "107",
+    "nome": "CAPELA SANTO ANTONIO"
+  },
+  {
+    "codigo": "108",
+    "nome": "PROF JOSE LOURENCO DE LIMA"
+  },
+  {
+    "codigo": "109",
+    "nome": "ZZ CLUBE DAS MAES DA UR 05"
+  },
+  {
+    "codigo": "110",
+    "nome": "KARLA PATRICIA"
+  },
+  {
+    "codigo": "111",
+    "nome": "ALDA ROMEU"
+  },
+  {
+    "codigo": "112",
+    "nome": "NOVO PINA"
+  },
+  {
+    "codigo": "113",
+    "nome": "ALTO DA GUABIRABA"
+  },
+  {
+    "codigo": "114",
+    "nome": "ENGENHEIRO UMBERTO GONDIM"
+  },
+  {
+    "codigo": "115",
+    "nome": "ALTO JARDIM PROGRESSO"
+  },
+  {
+    "codigo": "116",
+    "nome": "DE DOIS RIOS"
+  },
+  {
+    "codigo": "120",
+    "nome": "CORREGO DA AREIA"
+  },
+  {
+    "codigo": "121",
+    "nome": "OSWALDO LIMA FILHO"
+  },
+  {
+    "codigo": "122",
+    "nome": "NOVO HORIZONTE - ANX I"
+  },
+  {
+    "codigo": "124",
+    "nome": "DRAOMIRO CHAVES - ANX II- BAR STA ISABEL"
+  },
+  {
+    "codigo": "125",
+    "nome": "ZZ CASA DOS FERROVIARIOS I-COQUEIRAL"
+  },
+  {
+    "codigo": "127",
+    "nome": "PROFESSOR MANOEL TORRES"
+  },
+  {
+    "codigo": "128",
+    "nome": "ZZ NOVA PASTORAL"
+  },
+  {
+    "codigo": "130",
+    "nome": "ZZ MANOEL ANTÔNIO DE FREITAS I"
+  },
+  {
+    "codigo": "131",
+    "nome": "PASTOR PAULO LEIVAS MACALAO"
+  },
+  {
+    "codigo": "132",
+    "nome": "PROFESSOR NILO PEREIRA"
+  },
+  {
+    "codigo": "133",
+    "nome": "27 DE NOVEMBRO"
+  },
+  {
+    "codigo": "135",
+    "nome": "DOS COELHOS - ANX I - CMB/FMPE"
+  },
+  {
+    "codigo": "137",
+    "nome": "NOVA MORADA"
+  },
+  {
+    "codigo": "138",
+    "nome": "ARRAIAL NOVO DO BOM JESUS ANEXO I - APEC"
+  },
+  {
+    "codigo": "139",
+    "nome": "DO DOM"
+  },
+  {
+    "codigo": "141",
+    "nome": "FUTURO FELIZ"
+  },
+  {
+    "codigo": "142",
+    "nome": "JOSE DE ANCHIETA- ANEXO I - CERPIG"
+  },
+  {
+    "codigo": "143",
+    "nome": "CASARÃO DO BARBALHO - ANX I - PESTALOZZI"
+  },
+  {
+    "codigo": "144",
+    "nome": "ARTISTA PLASTICO CICERO DIAS"
+  },
+  {
+    "codigo": "145",
+    "nome": "PADRE ANTONIO HENRIQUE"
+  },
+  {
+    "codigo": "146",
+    "nome": "ABILIO GOMES"
+  },
+  {
+    "codigo": "148",
+    "nome": "JARDIM MAURICEIA"
+  },
+  {
+    "codigo": "150",
+    "nome": "NOSSA SENHORA DA PENHA"
+  },
+  {
+    "codigo": "155",
+    "nome": "SEVERINA LIRA - ANX I - DESATIVADO"
+  },
+  {
+    "codigo": "157",
+    "nome": "ALTO JARDIM PROGRESSO - ANX I - BARRACÃO"
+  },
+  {
+    "codigo": "159",
+    "nome": "ZZ JORDÃO I (ALTO DA JAQUEIRA) EXTINTO"
+  },
+  {
+    "codigo": "163",
+    "nome": "CRISTINA TAVARES"
+  },
+  {
+    "codigo": "164",
+    "nome": "POETA PAULO BANDEIRA DA CRUZ"
+  },
+  {
+    "codigo": "168",
+    "nome": "ALDA ROMEU - ANX I - CASINHA FELIZ"
+  },
+  {
+    "codigo": "172",
+    "nome": "ZZ PROF. NILO PEREIRA II - C.R.H./PCR"
+  },
+  {
+    "codigo": "174",
+    "nome": "ALDA ROMEU - ANX II - TIA REGINA"
+  },
+  {
+    "codigo": "176",
+    "nome": "DEUS E AMOR"
+  },
+  {
+    "codigo": "178",
+    "nome": "ZZ OLINDINA MONTEIRO O. FRANCA I"
+  },
+  {
+    "codigo": "179",
+    "nome": "DOM JOSE LAMARTINE ANX II JOSE LAMARTINE"
+  },
+  {
+    "codigo": "181",
+    "nome": "CREUSA BARRETO DORNELAS CÂMARA - CAIC"
+  },
+  {
+    "codigo": "182",
+    "nome": "WALDEMAR VALENTE"
+  },
+  {
+    "codigo": "183",
+    "nome": "BEATO EUGENIO MAZENOD"
+  },
+  {
+    "codigo": "184",
+    "nome": "ZZ ENG GUILHERME DINIZ II- ATER MURIBECA"
+  },
+  {
+    "codigo": "186",
+    "nome": "SAO FRANCISCO DE ASSIS"
+  },
+  {
+    "codigo": "187",
+    "nome": "ALTO DO MARACANA"
+  },
+  {
+    "codigo": "188",
+    "nome": "PROFESSOR SIMOES BARBOSA"
+  },
+  {
+    "codigo": "189",
+    "nome": "SANTO AMARO"
+  },
+  {
+    "codigo": "190",
+    "nome": "CASARAO DO BARBALHO"
+  },
+  {
+    "codigo": "192",
+    "nome": "MONTEIRO LOBATO - ANX I - CDM PEDREIRAS"
+  },
+  {
+    "codigo": "193",
+    "nome": "PAULO VI - ANX I - FED MULH RIO MORNO"
+  },
+  {
+    "codigo": "194",
+    "nome": "ZZ IRMÃ TEREZINHA BAT I -C.SÃO J.TADEU"
+  },
+  {
+    "codigo": "195",
+    "nome": "DOM JOSE LAMARTINE ANEXO III - CDM CARUA"
+  },
+  {
+    "codigo": "196",
+    "nome": "DOM JOSE LAMARTINE ANX IV CDM ALT.EUC"
+  },
+  {
+    "codigo": "197",
+    "nome": "MAURICIO NASSAU - ANX II - CDM ALT MANDU"
+  },
+  {
+    "codigo": "198",
+    "nome": "MAURICIO NASSAU - ANX I - CDM FR PEREIRA"
+  },
+  {
+    "codigo": "199",
+    "nome": "ZZ NADIR COLACO I"
+  },
+  {
+    "codigo": "200",
+    "nome": "DA IPUTINGA - ANX III - CDM TIA ZEFINHA"
+  },
+  {
+    "codigo": "202",
+    "nome": "SANTO ANTONIO DO CACOTE - ANX I - EMLURB"
+  },
+  {
+    "codigo": "203",
+    "nome": "DA GUABIRABA ANEXO II"
+  },
+  {
+    "codigo": "204",
+    "nome": "LUIZ VAZ DE CAMÕES - ANX I CDM BEIRINHA"
+  },
+  {
+    "codigo": "205",
+    "nome": "ZZ PAIS E FILHOS  I"
+  },
+  {
+    "codigo": "206",
+    "nome": "NOVA DESCOBERTA"
+  },
+  {
+    "codigo": "207",
+    "nome": "ZZ NOVA DESCOBERTA I"
+  },
+  {
+    "codigo": "209",
+    "nome": "ANTONIO FARIAS FILHO - ANX I - CDM"
+  },
+  {
+    "codigo": "211",
+    "nome": "MARIA DA PAZ- ANEXO I - CDM TOTO"
+  },
+  {
+    "codigo": "213",
+    "nome": "CRISTIANO CORDEIRO"
+  },
+  {
+    "codigo": "234",
+    "nome": "ZZ ASS. MORADORES DO ALTO DO CAPITAO"
+  },
+  {
+    "codigo": "235",
+    "nome": "PAULO VI - ANX II- FD MULH LINHA DO TIRO"
+  },
+  {
+    "codigo": "237",
+    "nome": "ALTO SANTA TEREZINHA"
+  },
+  {
+    "codigo": "238",
+    "nome": "ZZ DOM LAMARTINE SOARES II"
+  },
+  {
+    "codigo": "240",
+    "nome": "DA GUABIRABA - ANX I - ARITANA"
+  },
+  {
+    "codigo": "241",
+    "nome": "SAN MARTIN- ANEXO II - CDM SAN MARTIN"
+  },
+  {
+    "codigo": "243",
+    "nome": "ZZ ENGº GUILHERME DINIZ I - ASS. DA UR6"
+  },
+  {
+    "codigo": "244",
+    "nome": "ZZ INES SOARES I - ASS M  CEL.FABRICIANO"
+  },
+  {
+    "codigo": "245",
+    "nome": "FLORESTAN FERNANDES"
+  },
+  {
+    "codigo": "246",
+    "nome": "JORDAO BAIXO"
+  },
+  {
+    "codigo": "247",
+    "nome": "SEVERINA BERNADETE TEIXEIRA"
+  },
+  {
+    "codigo": "249",
+    "nome": "FERNANDO SANTA CRUZ"
+  },
+  {
+    "codigo": "251",
+    "nome": "ALTO DO REFUGIO - IVAN NEVES"
+  },
+  {
+    "codigo": "252",
+    "nome": "RENATO ACCIOLY CARNEIRO CAMPOS"
+  },
+  {
+    "codigo": "253",
+    "nome": "PROFESSOR NILO PEREIRA - ANEXO I"
+  },
+  {
+    "codigo": "255",
+    "nome": "DEPUTADO FERNANDO SAMPAIO"
+  },
+  {
+    "codigo": "256",
+    "nome": "DO COQUE"
+  },
+  {
+    "codigo": "257",
+    "nome": "LOJISTAS DO RECIFE"
+  },
+  {
+    "codigo": "258",
+    "nome": "ANITA PAES BARRETO"
+  },
+  {
+    "codigo": "259",
+    "nome": "ABILIO GOMES - ANX I - INFRAERO"
+  },
+  {
+    "codigo": "261",
+    "nome": "DEP FERNANDO SAMPAIO ANX I ANTONIO FELIX"
+  },
+  {
+    "codigo": "263",
+    "nome": "ALMERINDA UMBELINO DE BARROS - ANEXO I"
+  },
+  {
+    "codigo": "264",
+    "nome": "ANTONIO TIBURCIO - ANX I - PICA PAU"
+  },
+  {
+    "codigo": "265",
+    "nome": "SANTA MARIA GORETTI"
+  },
+  {
+    "codigo": "266",
+    "nome": "DRAOMIRO CHAVES - ANX I - SITIO ENCANTAD"
+  },
+  {
+    "codigo": "267",
+    "nome": "OCTAVIO MEIRA LINS - ANX II  D. ANTO ALM"
+  },
+  {
+    "codigo": "268",
+    "nome": "ZZ CRISTO MENINO"
+  },
+  {
+    "codigo": "269",
+    "nome": "SANTA EDWIGES"
+  },
+  {
+    "codigo": "270",
+    "nome": "SANTA EDWIGES - ANX I - CRISTO REI"
+  },
+  {
+    "codigo": "271",
+    "nome": "ZZ SANTA EDWIGES"
+  },
+  {
+    "codigo": "272",
+    "nome": "ZZ SANTA EDWIGES I - RISTO RESSUSCITADO"
+  },
+  {
+    "codigo": "273",
+    "nome": "DA IPUTINGA - ANEXO I - ACF"
+  },
+  {
+    "codigo": "274",
+    "nome": "ADERBAL GALVÃO - ANX I - ALT DA FAV"
+  },
+  {
+    "codigo": "276",
+    "nome": "ARRAIAL NOVO - ANX II - CDM TORROES"
+  },
+  {
+    "codigo": "277",
+    "nome": "DOM JOSE LAMARTINE SOARES - ANEXO I CVC"
+  },
+  {
+    "codigo": "279",
+    "nome": "ZZ JOÃO XIII I - C.D.M. TORRÕES"
+  },
+  {
+    "codigo": "280",
+    "nome": "HUGO GERDAU - ANX I"
+  },
+  {
+    "codigo": "281",
+    "nome": "ZZ COQUE II"
+  },
+  {
+    "codigo": "282",
+    "nome": "LUTADORES DO BEM"
+  },
+  {
+    "codigo": "284",
+    "nome": "ZZ MIRAMAR SPORT CLUBE (EXTINTA JUN/00)"
+  },
+  {
+    "codigo": "285",
+    "nome": "SERVICO SOCIAL DE BELEM"
+  },
+  {
+    "codigo": "286",
+    "nome": "ZZ CENTRO SOC DOS COELHOS I-CLUB.DA OAF"
+  },
+  {
+    "codigo": "288",
+    "nome": "PEDRINHO"
+  },
+  {
+    "codigo": "289",
+    "nome": "CIDADAO HERBERT DE SOUZA"
+  },
+  {
+    "codigo": "290",
+    "nome": "PROFESSORA PRIMITIVA DE BARROS SILVA"
+  },
+  {
+    "codigo": "291",
+    "nome": "EDITE BRAGA"
+  },
+  {
+    "codigo": "292",
+    "nome": "DOUTOR EBENEZER GUEIROS"
+  },
+  {
+    "codigo": "293",
+    "nome": "ZZ POTIGUAR MATOS,  JORNALISTA"
+  },
+  {
+    "codigo": "294",
+    "nome": "ZZ CRUZADA JOAQUIM NABUCO (EXTINTA)"
+  },
+  {
+    "codigo": "295",
+    "nome": "ZZ BEIRA RIO-EXTINTA/99"
+  },
+  {
+    "codigo": "297",
+    "nome": "JOAO PESSOA GUERRA"
+  },
+  {
+    "codigo": "298",
+    "nome": "EDUCADOR PAULO FREIRE"
+  },
+  {
+    "codigo": "299",
+    "nome": "SAN MARTIN- ANEXO I - CDM POVO DE DEUS"
+  },
+  {
+    "codigo": "301",
+    "nome": "ZZ PADRE ANTONIO HENRIQUE I - EMLURB"
+  },
+  {
+    "codigo": "302",
+    "nome": "ZZ CREUZA DE FREITAS CAVALC II - R.FOGO"
+  },
+  {
+    "codigo": "303",
+    "nome": "ZZ CREUZA DE FREITAS CAVALCANTI I"
+  },
+  {
+    "codigo": "304",
+    "nome": "JARDIM UCHOA"
+  },
+  {
+    "codigo": "305",
+    "nome": "SANTO ANTONIO ANX II-CDM-IG BAT"
+  },
+  {
+    "codigo": "306",
+    "nome": "SEVERINA LIRA"
+  },
+  {
+    "codigo": "307",
+    "nome": "DOS COELHOS - ANX II - ALBERGUE NOTURNO"
+  },
+  {
+    "codigo": "308",
+    "nome": "ZZ CRISTINA TAVARES I"
+  },
+  {
+    "codigo": "309",
+    "nome": "ENGENHEIRO HENOCH COUTINHO DE MELO"
+  },
+  {
+    "codigo": "310",
+    "nome": "DE CASA AMARELA"
+  },
+  {
+    "codigo": "311",
+    "nome": "ALTO DO REFUGIO - IVAN NEVES - ANEXO I"
+  },
+  {
+    "codigo": "312",
+    "nome": "NOSSA SENHORA DO PILAR"
+  },
+  {
+    "codigo": "313",
+    "nome": "HISTORIADOR FLAVIO GUERRA - ANEXO I"
+  },
+  {
+    "codigo": "314",
+    "nome": "PROF JOSE LOURENCO DE LIMA ANX I BALAO"
+  },
+  {
+    "codigo": "315",
+    "nome": "ZZ MOACYR DE ALBUQUERQUE II-OL.D AGUÁ"
+  },
+  {
+    "codigo": "316",
+    "nome": "LUIZ LUA GONZAGA - ANX I"
+  },
+  {
+    "codigo": "317",
+    "nome": "ZZ VILA SESAMO I - C.D.M. / UR-10"
+  },
+  {
+    "codigo": "318",
+    "nome": "PRESBITERO JOSE BEZERRA"
+  },
+  {
+    "codigo": "319",
+    "nome": "ZZ GAL.EMIDIO D. BARRETO I - C PASSAGEM"
+  },
+  {
+    "codigo": "320",
+    "nome": "ALDA ROMEU - ANX III - CORR DO DEODATO"
+  },
+  {
+    "codigo": "321",
+    "nome": "ALTO DO PASCOAL"
+  },
+  {
+    "codigo": "324",
+    "nome": "ARRAIAL NOVO - ANX III -PROJETO MOTIVAH"
+  },
+  {
+    "codigo": "325",
+    "nome": "ZZ CASARÃO DO BARBALHO I"
+  },
+  {
+    "codigo": "326",
+    "nome": "EUGENIO MAZENOD ANEXO I - TRENZ D ROSA"
+  },
+  {
+    "codigo": "327",
+    "nome": "ZZ BEATO EUGÊNIO MAZENOD II- SÍTIO GDE"
+  },
+  {
+    "codigo": "328",
+    "nome": "NOVO PINA - ANX I"
+  },
+  {
+    "codigo": "329",
+    "nome": "ZZ ALTO JARDIM PROGRESSO I - BARRACÃO"
+  },
+  {
+    "codigo": "330",
+    "nome": "27 DE NOVEMBRO - ANEXO - I"
+  },
+  {
+    "codigo": "331",
+    "nome": "VILA SANTA LUZIA"
+  },
+  {
+    "codigo": "332",
+    "nome": "PROFESSOR RICARDO GAMA"
+  },
+  {
+    "codigo": "333",
+    "nome": "MARLUCE SANTIAGO DA SILVA"
+  },
+  {
+    "codigo": "334",
+    "nome": "DARCY RIBEIRO"
+  },
+  {
+    "codigo": "335",
+    "nome": "PROFESSOR ANTONIO DE BRITO ALVES"
+  },
+  {
+    "codigo": "336",
+    "nome": "PROFESSOR ENALDO MANOEL DE SOUZA"
+  },
+  {
+    "codigo": "338",
+    "nome": "ZZ CASA DO MENOR DO RECIFE I MARIA CONGA"
+  },
+  {
+    "codigo": "339",
+    "nome": "PROFESSOR POTIGUAR MATOS"
+  },
+  {
+    "codigo": "340",
+    "nome": "DINA DE OLIVEIRA"
+  },
+  {
+    "codigo": "341",
+    "nome": "PROFESSOR SOLANO MAGALHAES"
+  },
+  {
+    "codigo": "342",
+    "nome": "CORREGO DO EUCLIDES"
+  },
+  {
+    "codigo": "343",
+    "nome": "OCTAVIO MEIRA LINS - ANX I - RENASCER"
+  },
+  {
+    "codigo": "344",
+    "nome": "ZZ SANTA CECILIA I  S DE VIVÊNCIA CRISTÃ"
+  },
+  {
+    "codigo": "345",
+    "nome": "ZZ JOSEFINA MARINHO II"
+  },
+  {
+    "codigo": "346",
+    "nome": "PROF JANDIRA BOTELHO PEREIRA DA COSTA"
+  },
+  {
+    "codigo": "347",
+    "nome": "PROFESSOR JOAO BATISTA LIPPO NETO"
+  },
+  {
+    "codigo": "348",
+    "nome": "PASTOR JOSE MUNGUBA SOBRINHO"
+  },
+  {
+    "codigo": "354",
+    "nome": "PARQUE DOS MILAGRES"
+  },
+  {
+    "codigo": "355",
+    "nome": "ZZ PAULO LEIVAS MACALAO I - C.D.M."
+  },
+  {
+    "codigo": "356",
+    "nome": "DINA DE OLIVEIRA-ANX-I IGREJA B NOVA ESP"
+  },
+  {
+    "codigo": "357",
+    "nome": "ZZ SANTO ANTONIO CAÇOTE- I FED. MULHERES"
+  },
+  {
+    "codigo": "358",
+    "nome": "FUTURO FELIZ - ANX I"
+  },
+  {
+    "codigo": "359",
+    "nome": "ZZ HENOCK COUTINHO I - C.D.M"
+  },
+  {
+    "codigo": "360",
+    "nome": "SERRA DA PRATA"
+  },
+  {
+    "codigo": "361",
+    "nome": "DO COQUE- ANX I - FEDERAÇÃO DAS MULHERES"
+  },
+  {
+    "codigo": "362",
+    "nome": "ARRAIAL NOVO - ANX I-CDM-IGR BAT TORROES"
+  },
+  {
+    "codigo": "365",
+    "nome": "PROFESSOR JOAO FRANCISCO DE SOUZA"
+  },
+  {
+    "codigo": "368",
+    "nome": "FUTURO FELIZ - ANX II"
+  },
+  {
+    "codigo": "369",
+    "nome": "EBENEZER GUEIROS- ANX I CDM TIA CARMINHA"
+  },
+  {
+    "codigo": "370",
+    "nome": "SOCIOLOGO GILBERTO FREIRE ANX I"
+  },
+  {
+    "codigo": "371",
+    "nome": "ISAAC PEREIRA DA SILVA"
+  },
+  {
+    "codigo": "372",
+    "nome": "JOSE MUCIO MONTEIRO"
+  },
+  {
+    "codigo": "373",
+    "nome": "PROFESSOR JULIO DE OLIVEIRA"
+  },
+  {
+    "codigo": "374",
+    "nome": "DEPUTADO EDSON CANTARELLI"
+  },
+  {
+    "codigo": "375",
+    "nome": "PROFESSOR ORLANDO PARAHYM"
+  },
+  {
+    "codigo": "376",
+    "nome": "PROFESSOR JOSE SOARES DA SILVA"
+  },
+  {
+    "codigo": "377",
+    "nome": "CELESTE VIDAL"
+  },
+  {
+    "codigo": "378",
+    "nome": "ANEXA CASA AMARELA"
+  },
+  {
+    "codigo": "379",
+    "nome": "PROFESSORA HELIA MARIA PEREIRA"
+  },
+  {
+    "codigo": "380",
+    "nome": "MERCIA DE ALBUQUERQUE FERREIRA"
+  },
+  {
+    "codigo": "381",
+    "nome": "ANEXA A PROFESSOR FLORESTAN FERNANDES"
+  },
+  {
+    "codigo": "382",
+    "nome": "CECILIA MEIRELLES"
+  },
+  {
+    "codigo": "383",
+    "nome": "ALTO DO PASCOAL - ANEXO II"
+  },
+  {
+    "codigo": "384",
+    "nome": "FREI TADEU GLASER"
+  },
+  {
+    "codigo": "385",
+    "nome": "IRMA TEREZINHA BATISTA - ANEXO I"
+  },
+  {
+    "codigo": "386",
+    "nome": "DO COQUE ANX II ERRO"
+  },
+  {
+    "codigo": "387",
+    "nome": "VILA DOS MILAGRES"
+  },
+  {
+    "codigo": "388",
+    "nome": "ZZZ MIGUEL ARRAES DE ALENCAR"
+  },
+  {
+    "codigo": "389",
+    "nome": "JULIO VICENTE ALVES DE ARAU ANX I CERVAC"
+  },
+  {
+    "codigo": "390",
+    "nome": "JOAO PESSOA GUERRA - ANEXO I"
+  },
+  {
+    "codigo": "391",
+    "nome": "JADER FIGUEIREDO DE ANDRADE SILVA ANX 1"
+  },
+  {
+    "codigo": "392",
+    "nome": "EBENEZER GUEIROS - ANEXO I"
+  },
+  {
+    "codigo": "393",
+    "nome": "LOURENÇO ANX I"
+  },
+  {
+    "codigo": "394",
+    "nome": "CHICO MENDES ANX I"
+  },
+  {
+    "codigo": "395",
+    "nome": "NOVA MORADA - ANEXO I"
+  },
+  {
+    "codigo": "396",
+    "nome": "BALBINA MENELAU - ANEXO I"
+  },
+  {
+    "codigo": "397",
+    "nome": "DO COQUE - ANEXO II"
+  },
+  {
+    "codigo": "398",
+    "nome": "PEDRINHO - ANEXO I"
+  },
+  {
+    "codigo": "399",
+    "nome": "PROFESSOR PAULO ROSAS"
+  },
+  {
+    "codigo": "400",
+    "nome": "COMPOSITOR CAPIBA"
+  },
+  {
+    "codigo": "401",
+    "nome": "ROZEMAR DE MACEDO LIMA"
+  },
+  {
+    "codigo": "402",
+    "nome": "LAR DO GAROTO"
+  },
+  {
+    "codigo": "403",
+    "nome": "ESTRELA DA MANHA"
+  },
+  {
+    "codigo": "404",
+    "nome": "SITIO DO BERARDO - ANEXO I"
+  },
+  {
+    "codigo": "405",
+    "nome": "PADRE ANTONIO HENRIQUE ANEXO I"
+  },
+  {
+    "codigo": "406",
+    "nome": "ALTO JARDIM PROGRESSO - ANEXO I"
+  },
+  {
+    "codigo": "407",
+    "nome": "DEPUTADO FERNANDO SAMPAIO ANX II"
+  },
+  {
+    "codigo": "408",
+    "nome": "SEVERINA LIRA - ANX I - APAE"
+  },
+  {
+    "codigo": "409",
+    "nome": "NOVA MORADA - ANEXO II"
+  },
+  {
+    "codigo": "410",
+    "nome": "NOVA MORADA - ANEXO III"
+  },
+  {
+    "codigo": "411",
+    "nome": "ALTO DA BELA VISTA - ANEXO I"
+  },
+  {
+    "codigo": "412",
+    "nome": "DE TRANSTORNO GLOBAL DO DESENVOLVIMENTO"
+  },
+  {
+    "codigo": "413",
+    "nome": "DE SURDOCEGUEIRA E DEFICIENCIA MULTIPLA"
+  },
+  {
+    "codigo": "414",
+    "nome": "DE ALTAS HABILIDADES E SUPERDOTACAO"
+  },
+  {
+    "codigo": "415",
+    "nome": "ANA ROSA FALCAO DE CARVALHO"
+  },
+  {
+    "codigo": "416",
+    "nome": "VIRGEM PODEROSA ANX PROF GILDO SOARES"
+  },
+  {
+    "codigo": "417",
+    "nome": "NOSSO SENHOR JESUS DO BONFIM- ANX JIQUIA"
+  },
+  {
+    "codigo": "418",
+    "nome": "BERNARD VAN DER LEER"
+  },
+  {
+    "codigo": "419",
+    "nome": "PARQUE DOS MILAGRES - ANEXO II"
+  },
+  {
+    "codigo": "420",
+    "nome": "CHICO SCIENCE"
+  },
+  {
+    "codigo": "421",
+    "nome": "GILDO SOARES - ERRO"
+  },
+  {
+    "codigo": "422",
+    "nome": "LUA LUAR"
+  },
+  {
+    "codigo": "423",
+    "nome": "ROZEMAR DE MACEDO LIMA - ANEXO I - APAE"
+  },
+  {
+    "codigo": "424",
+    "nome": "MILTON ALMEIDA DOS SANTOS"
+  },
+  {
+    "codigo": "425",
+    "nome": "DOUTOR ALBERICO DORNELAS CAMARA"
+  },
+  {
+    "codigo": "426",
+    "nome": "COELHINHO PENSANTE"
+  },
+  {
+    "codigo": "427",
+    "nome": "BOLA NA REDE"
+  },
+  {
+    "codigo": "428",
+    "nome": "SERVICO SOCIAL DE BELEM - ANEXO I"
+  },
+  {
+    "codigo": "429",
+    "nome": "CRISTINA TAVARES - ANEXO I"
+  },
+  {
+    "codigo": "430",
+    "nome": "VILA IMPERIAL"
+  },
+  {
+    "codigo": "431",
+    "nome": "PROFESSOR JOAO FRANCISCO DE SOUZA- ANEXO"
+  },
+  {
+    "codigo": "432",
+    "nome": "ZILDA ARNS"
+  },
+  {
+    "codigo": "433",
+    "nome": "JOAO EUGENIO - ANX I- LAR SEM FRONTEIRAS"
+  },
+  {
+    "codigo": "434",
+    "nome": "14 BIS"
+  },
+  {
+    "codigo": "435",
+    "nome": "DONA LUCI SILVA LIMA"
+  },
+  {
+    "codigo": "436",
+    "nome": "IRMA DULCE"
+  },
+  {
+    "codigo": "437",
+    "nome": "ALCIDES RESTELLI TEDESCO"
+  },
+  {
+    "codigo": "438",
+    "nome": "CASA DOS FERROVIARIOS - ANEXO"
+  },
+  {
+    "codigo": "439",
+    "nome": "GOVERNADOR MIGUEL ARRAES-"
+  },
+  {
+    "codigo": "440",
+    "nome": "DOUTOR SAMUEL GONCALVES"
+  },
+  {
+    "codigo": "441",
+    "nome": "PAPA JOAO XXIII"
+  },
+  {
+    "codigo": "442",
+    "nome": "SOLDADO JOSE ANTONIO DO NASCIMENTO"
+  },
+  {
+    "codigo": "443",
+    "nome": "PAROQUIAL CRISTO REI"
+  },
+  {
+    "codigo": "444",
+    "nome": "SAO DOMINGOS"
+  },
+  {
+    "codigo": "445",
+    "nome": "SAO DOMINGOS - ANEXO I - SANTO ANTONIO"
+  },
+  {
+    "codigo": "446",
+    "nome": "POETA JONATAS BRAGA"
+  },
+  {
+    "codigo": "447",
+    "nome": "ESCRITOR JOSUE DE CASTRO"
+  },
+  {
+    "codigo": "448",
+    "nome": "ARQUITETO ALEXANDRE MUNIZ DE OLIVEIRA"
+  },
+  {
+    "codigo": "449",
+    "nome": "DARCY RIBEIRO -"
+  },
+  {
+    "codigo": "450",
+    "nome": "08 DE MARCO"
+  },
+  {
+    "codigo": "451",
+    "nome": "DONA CARMELITA MUNIZ DE ARAUJO"
+  },
+  {
+    "codigo": "452",
+    "nome": "MERCIA MARIA BEZERRA COSTA"
+  },
+  {
+    "codigo": "453",
+    "nome": "NOSSA SENHORA DA PENHA ANEXO"
+  },
+  {
+    "codigo": "454",
+    "nome": "DO IRAQUE"
+  },
+  {
+    "codigo": "455",
+    "nome": "GOVERNADOR EDUARDO CAMPOS"
+  },
+  {
+    "codigo": "456",
+    "nome": "DO PANTANAL-ANEXO III-ISABEL S. DE MELO"
+  },
+  {
+    "codigo": "457",
+    "nome": "GAL. EMIDIO DANTAS BARRETO-ANEXO I-CETEC"
+  },
+  {
+    "codigo": "458",
+    "nome": "ANTONIO LUIZ - ANEXO I"
+  },
+  {
+    "codigo": "459",
+    "nome": "MENINO JESUS DE CASA FORTE"
+  },
+  {
+    "codigo": "460",
+    "nome": "NASCEDOURO DE PEIXINHOS"
+  },
+  {
+    "codigo": "461",
+    "nome": "JARDIM BOTANICO"
+  },
+  {
+    "codigo": "462",
+    "nome": "IBURA"
+  },
+  {
+    "codigo": "463",
+    "nome": "UTEC JORNALISTA CRISTIANO DONATO"
+  },
+  {
+    "codigo": "464",
+    "nome": "UTEC ITINERANTE DE INFORMATICA  MOVEL 5"
+  },
+  {
+    "codigo": "465",
+    "nome": "UTEC ITINERANTE DE INFORMATICA MOVEL 2"
+  },
+  {
+    "codigo": "466",
+    "nome": "UTEC MOVEL RPA 4"
+  },
+  {
+    "codigo": "467",
+    "nome": "UTEC  LARGO DOM LUIS RPA 03"
+  },
+  {
+    "codigo": "468",
+    "nome": "UTEC MOVEL 6"
+  },
+  {
+    "codigo": "469",
+    "nome": "UTEC MOVEL 1"
+  },
+  {
+    "codigo": "470",
+    "nome": "UTEC SANTO AMARO"
+  },
+  {
+    "codigo": "471",
+    "nome": "UTEC GREGORIO BEZERRA"
+  },
+  {
+    "codigo": "472",
+    "nome": "UTEC NOBREGA"
+  },
+  {
+    "codigo": "473",
+    "nome": "SECRETARIA EXECUTIVA DE TECNOLOGIA CETEC"
+  },
+  {
+    "codigo": "474",
+    "nome": "PRESIDENTE TANCREDO NEVES"
+  },
+  {
+    "codigo": "475",
+    "nome": "EFAER PROF PAULO FREIRE"
+  },
+  {
+    "codigo": "476",
+    "nome": "ISABEL SILVANA DE MELO"
+  },
+  {
+    "codigo": "477",
+    "nome": "ISABEL SILVANA DE MELO-"
+  },
+  {
+    "codigo": "478",
+    "nome": "MIGUEL ARRAES DE ALENCAR-"
+  },
+  {
+    "codigo": "479",
+    "nome": "UTEC MOVEL 3"
+  },
+  {
+    "codigo": "480",
+    "nome": "UTEC SITIO TRINDADE"
+  },
+  {
+    "codigo": "481",
+    "nome": "SOLDADO JOSE ANTONIO DO NASCIMENTO ANEXO"
+  },
+  {
+    "codigo": "482",
+    "nome": "PROG MANUEL BANDEIRA DE FORMACAO DE LEITORES"
+  },
+  {
+    "codigo": "483",
+    "nome": "BOLSA ESCOLA MUNICIPAL"
+  },
+  {
+    "codigo": "484",
+    "nome": "ALMOXARIFADO"
+  },
+  {
+    "codigo": "485",
+    "nome": "PCR - SECRETARIA DE EDUCACAO"
+  },
+  {
+    "codigo": "486",
+    "nome": "GERENCIA DE ALIMENTACAO"
+  },
+  {
+    "codigo": "487",
+    "nome": "CAP - BLOCO B DEGRE"
+  },
+  {
+    "codigo": "488",
+    "nome": "CAP - BLOCO A DEGRE"
+  },
+  {
+    "codigo": "489",
+    "nome": "CAP - BLOCO A DEGEP"
+  },
+  {
+    "codigo": "490",
+    "nome": "UTEC CORDEIRO/COMPAZ-ARIANO SUASSUNA"
+  },
+  {
+    "codigo": "491",
+    "nome": "PAZ E AMOR"
+  },
+  {
+    "codigo": "492",
+    "nome": "MAURICEIA DA SILVA DIAS"
+  },
+  {
+    "codigo": "501",
+    "nome": "MAEZINHA DO COQUE"
+  },
+  {
+    "codigo": "502",
+    "nome": "VOVO ARTUR"
+  },
+  {
+    "codigo": "503",
+    "nome": "SAO DOMINGOS SAVIO"
+  },
+  {
+    "codigo": "504",
+    "nome": "PROFESSOR FRANCISCO DO AMARAL LOPES"
+  },
+  {
+    "codigo": "505",
+    "nome": "RECIFE 2000"
+  },
+  {
+    "codigo": "507",
+    "nome": "ZACARIAS DO REGO MACIEL"
+  },
+  {
+    "codigo": "508",
+    "nome": "WALDEMAR DE SOUZA CABRAL"
+  },
+  {
+    "codigo": "509",
+    "nome": "CAJUEIRO"
+  },
+  {
+    "codigo": "510",
+    "nome": "UNIDOS VENCEREMOS"
+  },
+  {
+    "codigo": "511",
+    "nome": "MENINO JESUS"
+  },
+  {
+    "codigo": "512",
+    "nome": "CLUBE MAES TIA REGINA"
+  },
+  {
+    "codigo": "513",
+    "nome": "AVANCO SOCIAL"
+  },
+  {
+    "codigo": "514",
+    "nome": "MARDONIO COELHO"
+  },
+  {
+    "codigo": "515",
+    "nome": "CREUSA ARCOVERDE DE FREITAS CAVALCANTI -"
+  },
+  {
+    "codigo": "516",
+    "nome": "AME AS CRIANCAS"
+  },
+  {
+    "codigo": "517",
+    "nome": "FLOR DO BAIRRO DA GUABIRABA"
+  },
+  {
+    "codigo": "518",
+    "nome": "CRIANCA FELIZ"
+  },
+  {
+    "codigo": "519",
+    "nome": "FLOR DA COMUNIDADE"
+  },
+  {
+    "codigo": "520",
+    "nome": "NOSSA SENHORA DAS DORES"
+  },
+  {
+    "codigo": "521",
+    "nome": "CEAPE-"
+  },
+  {
+    "codigo": "522",
+    "nome": "SAO JOAO"
+  },
+  {
+    "codigo": "523",
+    "nome": "MENINO JESUS-"
+  },
+  {
+    "codigo": "524",
+    "nome": "CHICO MENDES-"
+  },
+  {
+    "codigo": "525",
+    "nome": "WALDIR SAVLUSCHINSKE"
+  },
+  {
+    "codigo": "526",
+    "nome": "E LUTANDO QUE SE CONQUISTA"
+  },
+  {
+    "codigo": "527",
+    "nome": "MENINO JESUS DA BOMBA GRANDE"
+  },
+  {
+    "codigo": "528",
+    "nome": "SEMENTINHA DO SKYLAB"
+  },
+  {
+    "codigo": "529",
+    "nome": "DEUS E AMOR-"
+  },
+  {
+    "codigo": "530",
+    "nome": "NOVO PINA-"
+  },
+  {
+    "codigo": "533",
+    "nome": "SANTA LUZIA"
+  },
+  {
+    "codigo": "535",
+    "nome": "FUTURO DO AMANHA"
+  },
+  {
+    "codigo": "536",
+    "nome": "NOSSA SENHORA AUXILIADORA"
+  },
+  {
+    "codigo": "537",
+    "nome": "NOVO HORIZONTE-"
+  },
+  {
+    "codigo": "542",
+    "nome": "BRASILIA TEIMOSA"
+  },
+  {
+    "codigo": "543",
+    "nome": "SENADOR PAULO GUERRA"
+  },
+  {
+    "codigo": "544",
+    "nome": "SONHO DO POVO"
+  },
+  {
+    "codigo": "545",
+    "nome": "JESUS DE NAZARE"
+  },
+  {
+    "codigo": "546",
+    "nome": "PADRE LOURENCO"
+  },
+  {
+    "codigo": "547",
+    "nome": "JOAO EUGENIO"
+  },
+  {
+    "codigo": "548",
+    "nome": "BIDO KRAUSE"
+  },
+  {
+    "codigo": "549",
+    "nome": "TIA EMILIA"
+  },
+  {
+    "codigo": "551",
+    "nome": "NOSSO SENHOR JESUS DO BONFIM"
+  },
+  {
+    "codigo": "552",
+    "nome": "ZZ CEAPE"
+  },
+  {
+    "codigo": "553",
+    "nome": "SABER VIVER"
+  },
+  {
+    "codigo": "554",
+    "nome": "ROSA SELVAGEM"
+  },
+  {
+    "codigo": "556",
+    "nome": "ALTO DO MANDU"
+  },
+  {
+    "codigo": "560",
+    "nome": "LAR FABIANO DE CRISTO"
+  },
+  {
+    "codigo": "561",
+    "nome": "N. SRA. DOS REMEDIOS"
+  },
+  {
+    "codigo": "701",
+    "nome": "ZZ ASS. ATLETICA BRAGANTINO TUBEBOL CL"
+  },
+  {
+    "codigo": "702",
+    "nome": "ZZ CASA DO PROF. JOSÉ LOURENÇO LIMA"
+  },
+  {
+    "codigo": "703",
+    "nome": "ZZ CENTRO BRAS. CRIANCA E DO ADOLESCENTE"
+  },
+  {
+    "codigo": "708",
+    "nome": "SONHO DE CRIANCA"
+  },
+  {
+    "codigo": "709",
+    "nome": "ZZ ASS. ATLET. DO ALTO DO CEU"
+  },
+  {
+    "codigo": "710",
+    "nome": "ZZ ASS. BENEF. F. DE SANTANA (M. JESUS)"
+  },
+  {
+    "codigo": "711",
+    "nome": "ZZ ASS. COMUNITÁRIA DE BEBERIBE"
+  },
+  {
+    "codigo": "712",
+    "nome": "ZZ ASS. MORAD. CORR.EGO JOAO CARVOEIRO"
+  },
+  {
+    "codigo": "713",
+    "nome": "ZZ ASS. MORADORES CORREGO DO CURIO"
+  },
+  {
+    "codigo": "714",
+    "nome": "ZZ ASS. MORADORES CORREGO DO DEODATO"
+  },
+  {
+    "codigo": "715",
+    "nome": "ZZ ASS. FOLCLORICA DANADINHA DA ROÇA"
+  },
+  {
+    "codigo": "716",
+    "nome": "ZZ ASS. MORRADORES CORR.  J. ADJACENCIAS"
+  },
+  {
+    "codigo": "717",
+    "nome": "ZZ CASA DO PROF. SILVA CAVALCANTI"
+  },
+  {
+    "codigo": "718",
+    "nome": "ZZ CASA DO PROF. JOSÉ RAFAEL DE MENEZES"
+  },
+  {
+    "codigo": "723",
+    "nome": "COMUNIDADE AGUA VIVA"
+  },
+  {
+    "codigo": "728",
+    "nome": "PROJETO SEMENTE DO AMANHA"
+  },
+  {
+    "codigo": "730",
+    "nome": "TIA SOLANGE"
+  },
+  {
+    "codigo": "731",
+    "nome": "ZZ ASS. DAS MULHERES DE BOLA NA REDE"
+  },
+  {
+    "codigo": "732",
+    "nome": "ZZ ASS. DOS MORADORES ALDO DO EUCALIPTO"
+  },
+  {
+    "codigo": "733",
+    "nome": "ZZ ASS. MORADORES AL. JARDIM PROGRESSO"
+  },
+  {
+    "codigo": "734",
+    "nome": "ZZ ASS. DOS MORADORES DO VISGUEIRO"
+  },
+  {
+    "codigo": "735",
+    "nome": "ZZ ASS. DOS MORADORES LEMOS TORRRES"
+  },
+  {
+    "codigo": "736",
+    "nome": "ZZ CASA DO PROF. CELIA TRAVASSOS"
+  },
+  {
+    "codigo": "738",
+    "nome": "ZZ CASA DO PROF. IVONETE TRINDADE"
+  },
+  {
+    "codigo": "739",
+    "nome": "ZZ CENTRO COM. CORREGO DO JOAQUIM"
+  },
+  {
+    "codigo": "740",
+    "nome": "ZZ CENTRO DE APOIO DAS C. A. I."
+  },
+  {
+    "codigo": "741",
+    "nome": "ZZ CENRO REAB. E VALORIZACAO DA CRIANCA"
+  },
+  {
+    "codigo": "744",
+    "nome": "CLUBE DE MAES DO ALTO DO REFUGIO"
+  },
+  {
+    "codigo": "745",
+    "nome": "FREI JORGE"
+  },
+  {
+    "codigo": "747",
+    "nome": "CONSELHO COM. DE APIPUCOS"
+  },
+  {
+    "codigo": "753",
+    "nome": "GRUPO DE MAES"
+  },
+  {
+    "codigo": "755",
+    "nome": "GRUPO DE MAES"
+  },
+  {
+    "codigo": "905",
+    "nome": "PROFISS. MAGALHAES BASTOS"
+  },
+  {
+    "codigo": "909",
+    "nome": "ZZ NUPI - LARGO DOM LUIS"
+  },
+  {
+    "codigo": "910",
+    "nome": "ZZ NUPI - ARRAIAL NOVO DO BOM JESUS"
+  },
+  {
+    "codigo": "911",
+    "nome": "ZZ NUPI DO IBURA"
+  },
+  {
+    "codigo": "912",
+    "nome": "ZZ NUPI GREGORIO BEZERRA"
+  },
+  {
+    "codigo": "913",
+    "nome": "ZZ NUPI PADRE HENRIQUE"
+  },
+  {
+    "codigo": "914",
+    "nome": "ZZ NUPI PEDRO AUGUSTO"
+  },
+  {
+    "codigo": "916",
+    "nome": "PROFISS. VIRGEM PODEROSA"
+  },
+  {
+    "codigo": "917",
+    "nome": "GOVERNADOR MIGUEL ARRAES DE ALENCAR"
+  },
+  {
+    "codigo": "919",
+    "nome": "PROFISS. DE AREIAS"
+  },
+  {
+    "codigo": "922",
+    "nome": "NOVO MANGUE"
+  },
+  {
+    "codigo": "923",
+    "nome": "DE AGUA FRIA"
+  },
+  {
+    "codigo": "924",
+    "nome": "CAMPINA DO BARRETO"
+  },
+  {
+    "codigo": "925",
+    "nome": "DO IBURA"
+  },
+  {
+    "codigo": "926",
+    "nome": "IBURA DE BAIXO"
+  },
+  {
+    "codigo": "927",
+    "nome": "DO PANTANAL"
+  },
+  {
+    "codigo": "928",
+    "nome": "POETA JOAO CABRAL DE MELO NETO"
+  },
+  {
+    "codigo": "929",
+    "nome": "UR 05"
+  },
+  {
+    "codigo": "930",
+    "nome": "NOVO HORIZONTE - ANX II"
+  },
+  {
+    "codigo": "931",
+    "nome": "NOVO HORIZONTE - ANX III-CDM (EXTINTO)"
+  },
+  {
+    "codigo": "932",
+    "nome": "ANTONIO TIBURCIO - ANX II - PRJ FED MULH"
+  },
+  {
+    "codigo": "933",
+    "nome": "BALBINA MENELAU - ANX I - CBTU (EXTINTO)"
+  },
+  {
+    "codigo": "934",
+    "nome": "ZZ EUGENIO MAZENOD ANEXO I"
+  },
+  {
+    "codigo": "935",
+    "nome": "PROFESSOR JOSUE DE CASTRO"
+  },
+  {
+    "codigo": "936",
+    "nome": "DE BEBERIBE"
+  },
+  {
+    "codigo": "937",
+    "nome": "DRAOMIRO CHAVES - ANX III - CDM STA ISAB"
+  },
+  {
+    "codigo": "938",
+    "nome": "JADER FIGUEIREDO DE ANDRADE SILVA"
+  },
+  {
+    "codigo": "939",
+    "nome": "VILA SANTA LUZIA - ANX I (EXTINTO)"
+  },
+  {
+    "codigo": "940",
+    "nome": "HUGO GERDAU - ANX II (EXTINTO)"
+  },
+  {
+    "codigo": "941",
+    "nome": "MANOEL ROLIM - ANEXO I"
+  },
+  {
+    "codigo": "942",
+    "nome": "NOVO PINA - ANX II - CDM-JOSUE DE CASTRO"
+  },
+  {
+    "codigo": "943",
+    "nome": "PARQUE DOS MILAGRES - ANEXO I"
+  },
+  {
+    "codigo": "944",
+    "nome": "ANTONIO TIBURCIO - ANX III"
+  },
+  {
+    "codigo": "945",
+    "nome": "SANTA MARIA - ANEXO I"
+  },
+  {
+    "codigo": "946",
+    "nome": "ALTO DO PASCOAL - ANEXO I"
+  },
+  {
+    "codigo": "947",
+    "nome": "OCTAVIO MEIRA LINS - ANX I - DO  COSMO"
+  },
+  {
+    "codigo": "948",
+    "nome": "DO BARRO"
+  },
+  {
+    "codigo": "949",
+    "nome": "ENGENHEIRO EDINALDO MIRANDA DE OLIVEIRA"
+  },
+  {
+    "codigo": "950",
+    "nome": "DO SANCHO"
+  },
+  {
+    "codigo": "951",
+    "nome": "DARCY RIBEIRO-ANX I-CDM SITIO DO CARDOSO"
+  },
+  {
+    "codigo": "952",
+    "nome": "DO PANTANAL - ANEXO I"
+  },
+  {
+    "codigo": "953",
+    "nome": "PROFESSOR SIMOES BARBOSA - ANEXO I"
+  },
+  {
+    "codigo": "954",
+    "nome": "JORDAO BAIXO - ANEXO I"
+  },
+  {
+    "codigo": "955",
+    "nome": "MARLUCE SANTIAGO DA SILVA - ANEXO I"
+  },
+  {
+    "codigo": "956",
+    "nome": "MAESTRO NELSON FERREIRA"
+  },
+  {
+    "codigo": "957",
+    "nome": "POETA SOLANO TRINDADE"
+  },
+  {
+    "codigo": "958",
+    "nome": "BALBINA MENELAU - ANX. II - CDM CAPUAR"
+  },
+  {
+    "codigo": "959",
+    "nome": "ANTONIO CORREIA, DR-  ANEXO I"
+  },
+  {
+    "codigo": "960",
+    "nome": "DEUS E AMOR - ANEXO I"
+  },
+  {
+    "codigo": "961",
+    "nome": "PROFESSOR JOSE SOARES DA SILVA ANX I"
+  },
+  {
+    "codigo": "962",
+    "nome": "ALTO DA BELA VISTA"
+  },
+  {
+    "codigo": "963",
+    "nome": "JARDIM MONTE VERDE"
+  },
+  {
+    "codigo": "964",
+    "nome": "SITIO DO BERARDO"
+  },
+  {
+    "codigo": "965",
+    "nome": "SAO FRANCISCO DE ASSIS - ANEXO I"
+  },
+  {
+    "codigo": "966",
+    "nome": "LADJANE BANDEIRA"
+  },
+  {
+    "codigo": "967",
+    "nome": "ASA BRANCA"
+  },
+  {
+    "codigo": "968",
+    "nome": "DIACONO ABEL GUEIROS"
+  },
+  {
+    "codigo": "969",
+    "nome": "JARDIM MONTE VERDE - ANEXO I"
+  },
+  {
+    "codigo": "970",
+    "nome": "SANTA MARIA GORETTI - ANEXO I"
+  },
+  {
+    "codigo": "971",
+    "nome": "IBURA DE BAIXO - ANX I - ASSOC. MORAD"
+  },
+  {
+    "codigo": "972",
+    "nome": "POETA CARLOS PENA FILHO"
+  },
+  {
+    "codigo": "973",
+    "nome": "ESTAÇÃO DO SABER BRAS.TEIMOSA NUCLEO 1"
+  },
+  {
+    "codigo": "974",
+    "nome": "CHICO MENDES"
+  },
+  {
+    "codigo": "978",
+    "nome": "SITIO GRANDE"
+  },
+  {
+    "codigo": "979",
+    "nome": "ESPERANCA"
+  },
+  {
+    "codigo": "980",
+    "nome": "CASINHA AZUL"
+  },
+  {
+    "codigo": "981",
+    "nome": "VINDE A MIM AS CRIANCINHAS"
+  },
+  {
+    "codigo": "982",
+    "nome": "SITIO DO CARDOSO"
+  },
+  {
+    "codigo": "983",
+    "nome": "DA TORRE"
+  },
+  {
+    "codigo": "984",
+    "nome": "RODA DE FOGO"
+  },
+  {
+    "codigo": "985",
+    "nome": "CEAPE - NAO"
+  },
+  {
+    "codigo": "986",
+    "nome": "DE AFOGADOS"
+  },
+  {
+    "codigo": "987",
+    "nome": "DA MANGUEIRA"
+  },
+  {
+    "codigo": "988",
+    "nome": "DO BONGI"
+  },
+  {
+    "codigo": "989",
+    "nome": "DO JORDAO BAIXO-"
+  },
+  {
+    "codigo": "990",
+    "nome": "DO IBURA-"
+  },
+  {
+    "codigo": "991",
+    "nome": "NOSSA SENHORA DE FATIMA"
+  },
+  {
+    "codigo": "992",
+    "nome": "MONTE DAS OLIVEIRAS"
+  },
+  {
+    "codigo": "993",
+    "nome": "ALDA ROMEU - ANX IV"
+  },
+  {
+    "codigo": "994",
+    "nome": "ARITANA"
+  },
+  {
+    "codigo": "995",
+    "nome": "DO PANTANAL - ANEXO II"
+  },
+  {
+    "codigo": "996",
+    "nome": "DA GUABIRABA"
+  },
+  {
+    "codigo": "997",
+    "nome": "CARLUCIO DE SOUZA CASTANHA JUNIOR"
+  },
+  {
+    "codigo": "998",
+    "nome": "TRES CARNEIROS - ANEXO I"
+  },
+  {
+    "codigo": "999",
+    "nome": "JOAO AMAZONAS"
+  }
+]

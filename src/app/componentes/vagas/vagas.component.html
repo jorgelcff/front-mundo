@@ -1,0 +1,49 @@
+<div class="bg-white">
+  <div class="d-flex flex-column align-items-center p-3">
+    <div [ngClass]="this.IsMobile() ? 'w-100' : 'w-75'">
+      <div class="d-flex flex-wrap  align-items-center"
+        [ngClass]="this.IsMobile() ? 'justify-content-center' : 'justify-content-between'">
+        <!-- <div class="fs-4 fw-semibold" style="width: 10rem;">O nosso programa em números</div> -->
+        <div class="fs-2 fw-semibold" [ngClass]="this.IsMobile() ? 'm-2' : ''"
+          [style]="this.IsMobile() ? '' : 'width: 20rem;' ">O nosso programa em números</div>
+        <div class="d-flex flex-wrap justify-content-between align-items-center mx-5 container-card-vantagens p-3">
+          <div class="d-flex flex-column m-2 align-items-center">
+            <div class="fw-bold fs-3">1150</div>
+            <div class="legenda">Vagas ofertadas</div>
+          </div>
+          <div class="d-flex flex-column m-2 align-items-center">
+            <div class="fw-bold fs-3"> 67<span class="fs-6 fw-light">%</span></div>
+            <div class="legenda">Pretos e pardos</div>
+          </div>
+          <div class="d-flex flex-column m-2 align-items-center">
+            <div class="fw-bold fs-3"> 33<span class="fs-6 fw-light">%</span></div>
+            <div class="legenda">Mulheres</div>
+          </div>
+          <div class="d-flex flex-column m-2 align-items-center">
+            <div class="fw-bold fs-3"><span class="fs-6 fw-light">+</span>20</div>
+            <div class="legenda">Empresas
+            </div>
+          </div>
+          <!-- <div class="d-flex flex-column m-2 align-items-center">
+            <div class="fw-bold fs-3">40<span class="fs-6 fw-light">%</span></div>
+            <div class="legenda">Da primeira turma estagiando</div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- ocultado temporariamente -->
+
+      <!-- <div class="d-flex justify-content-center mz-5 mt-4">
+        <div class="d-flex p-3 justify-content-between rounded-2 shadow"
+          [ngClass]="this.IsMobile() ? 'flex-row justify-content-between align-items-center' : 'flex-wrap p-4' ">
+          <img src="https://educ.rec.br/educarecife/embarquedigital/assets/imagens/paper-plane-regular.svg" class="m-2" style="width: 1.5rem;">
+          <div class=" fw-semibold" [ngClass]="this.IsMobile() ? '' : 'fs-5 mx-2' ">Receba SMS com todas as novidades
+          </div>
+          <button type="button" class="btn btn-outline-primary">Participe</button>
+        </div>
+      </div> -->
+      <!-- Duvidas -->
+      <app-faq id="faq"></app-faq>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/src/assets/fontes/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4f4; /* Cor de fundo para todo o corpo da página */
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajusta o título principal */
+.main-title {
+  text-align: center;
+  margin: 5rem 0; /* Aumenta o espaço em cima e embaixo */
+  color: #005b95;
+  font-size: 2rem;
+}
+
+/* Estiliza a barra de pesquisa */
+.search-bar-container {
+  width: 100%; /* A barra ocupa a largura total */
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  margin-bottom: 4rem; /* Espaço antes do botão de download */
+  margin-top: 4rem;
+}
+
+.search-input-group {
+  width: 640px; /* Largura máxima da barra de pesquisa */
+  background: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.search-input-group input {
+  width: calc(100% - 0rem);
+  border-radius: 1rem;
+  line-height: 2.4rem;
+  padding-left: 1rem;
+  border: none;
+}
+
+.search-button {
+  background: #005b95;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* Ajusta o botão de download */
+.download-button-container {
+  text-align: center;
+  margin-bottom: 2rem; /* Espaço abaixo do botão de download */
+}
+
+.download-button {
+  background: #005b95;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.fa-magnifying-glass {
+  transform: scale(1.5);
+}
+
+.fa-download {
+  font-size: 1rem;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.fa-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Resultados */
+.resultado-consulta {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Resultado das questões */
+.resultado-questoes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Seis questões por linha */
+  gap: 0.5rem; /* Espaço entre as questões */
+  margin-top: 2rem; /* Espaço adicional acima da seção de resultados */
+}
+
+.questao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.acertou::after {
+  content: "✓"; /* Adiciona um checkmark */
+  color: #28a745;
+}
+
+/* Estilo para quando a questão estiver errada */
+.errou::after {
+  content: "✗"; /* Adiciona um X */
+  color: #dc3545; /* Cor vermelha para erro */
+}
+
+.acertou {
+  color: green;
+  background-color: #d6efe3;
+}
+
+.errou {
+  color: red;
+  background-color: #f8d7da;
+}
+
+.fa-times {
+  color: red;
+}
+
+/* Rodapé */
+.app-rodape {
+  height: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-aluno,
+.nota-acertos-container,
+.nota-final-field {
+  margin-bottom: 1rem;
+}
+
+.info-container {
+  display: flex;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  margin-right: 20px;
+}
+
+.info-title {
+  font-weight: normal;
+}
+
+.info-value {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Espaçamento entre as seções */
+.section-spacer {
+  margin: 2rem 0; /* Ajuste o valor conforme necessário */
+}
+
+/* Notas e Acertos */
+.nota-acertos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 2em;
+}
+
+.nota-field,
+.acertos-field {
+  width: calc(
+    50% - 10px
+  ); /* Ajuste para dois campos por linha com espaço entre eles */
+  margin-bottom: 1rem;
+}
+
+.nota-final-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.field-title {
+  color: #005b95; /* Cor azul para o título */
+  font-weight: bold; /* Título em negrito */
+  margin-bottom: 0.5rem; /* Espaço entre o título e o input */
+  display: block; /* O título é exibido acima do input */
+}
+
+.field-input {
+  background-color: #e7e7e7; /* Cor de fundo para o input conforme o Figma */
+  border: 1px solid #ccc; /* Borda do input */
+  border-radius: 4px; /* Bordas arredondadas */
+  padding: 0.5rem; /* Preenchimento interno do input */
+  margin-bottom: 1rem; /* Espaço abaixo do input */
+  width: 100%; /* O input usa toda a largura do container */
+}
+
+.full-width {
+  width: 100%;
+}
